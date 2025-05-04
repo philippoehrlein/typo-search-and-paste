@@ -34,6 +34,16 @@
       "value": "♯",
       "name": "Kreuz (Musik)",
       "aliases": ["musik", "kreuz", "musik", "kreuz", "erhöhung"]
+    },
+    {
+      "value": "𝄞",
+      "name": "Violinschlüssel",
+      "aliases": ["musik", "violinschlüssel", "violin", "violinenschlüssel"]
+    },
+    {
+      "value": "𝄢",
+      "name": "Bassschlüssel",
+      "aliases": ["musik", "bassschlüssel", "bass", "bassenschlüssel"]
     }
   ]
 }

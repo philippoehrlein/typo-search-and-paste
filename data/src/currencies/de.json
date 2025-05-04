@@ -89,6 +89,131 @@
       "value": "₭",
       "name": "Kip",
       "aliases": ["geld", "währung", "kip", "laos", "lak"]
+    },
+    {
+      "value": "¢",
+      "name": "Cent",
+      "aliases": ["geld", "währung", "cent"]
+    },
+    {
+      "value": "¤",
+      "name": "Allgemeines Währungszeichen",
+      "aliases": ["geld", "währung", "symbol"]
+    },
+    {
+      "value": "֏",
+      "name": "Dram",
+      "aliases": ["geld", "währung", "dram", "armenien", "amd"]
+    },
+    {
+      "value": "؋",
+      "name": "Afghani",
+      "aliases": ["geld", "währung", "afghani", "afghanistan", "afn"]
+    },
+    {
+      "value": "₣",
+      "name": "Franken",
+      "aliases": ["geld", "währung", "franken", "frankreich", "frf"]
+    },
+    {
+      "value": "₧",
+      "name": "Peseta",
+      "aliases": ["geld", "währung", "peseta", "spanien", "esp"]
+    },
+    {
+      "value": "₨",
+      "name": "Rupie (allgemein)",
+      "aliases": ["geld", "währung", "rupie"]
+    },
+    {
+      "value": "₮",
+      "name": "Tugrik",
+      "aliases": ["geld", "währung", "tugrik", "mongolei", "mnt"]
+    },
+    {
+      "value": "₯",
+      "name": "Drachme",
+      "aliases": ["geld", "währung", "drachme", "griechenland", "grd"]
+    },
+    {
+      "value": "₰",
+      "name": "Pfennig",
+      "aliases": ["geld", "währung", "pfennig", "deutschland"]
+    },
+    {
+      "value": "₱",
+      "name": "Peso",
+      "aliases": ["geld", "währung", "peso", "philippinen", "php"]
+    },
+    {
+      "value": "₲",
+      "name": "Guarani",
+      "aliases": ["geld", "währung", "guarani", "paraguay", "pyg"]
+    },
+    {
+      "value": "₳",
+      "name": "Austral",
+      "aliases": ["geld", "währung", "austral", "argentinien"]
+    },
+    {
+      "value": "₶",
+      "name": "Livre Tournois",
+      "aliases": ["geld", "währung", "livre", "tournois"]
+    },
+    {
+      "value": "₷",
+      "name": "Spesmilo",
+      "aliases": ["geld", "währung", "spesmilo"]
+    },
+    {
+      "value": "₻",
+      "name": "Nordisches Markzeichen",
+      "aliases": ["geld", "währung", "nordisch", "mark"]
+    },
+    {
+      "value": "₼",
+      "name": "Manat",
+      "aliases": ["geld", "währung", "manat", "aserbaidschan", "azn"]
+    },
+    {
+      "value": "₾",
+      "name": "Lari",
+      "aliases": ["geld", "währung", "lari", "georgien", "gel"]
+    },
+    {
+      "value": "﷼",
+      "name": "Rial",
+      "aliases": ["geld", "währung", "rial", "iran", "irr", "sar", "omr"]
+    },
+    {
+      "value": "﹩",
+      "name": "Kleines Dollarzeichen",
+      "aliases": ["geld", "währung", "dollar", "klein"]
+    },
+    {
+      "value": "＄",
+      "name": "Vollbreites Dollarzeichen",
+      "aliases": ["geld", "währung", "dollar", "vollbreit"]
+    },
+    {
+      "value": "￠",
+      "name": "Vollbreites Centzeichen",
+      "aliases": ["geld", "währung", "cent", "vollbreit"]
+    },
+    {
+      "value": "￡",
+      "name": "Vollbreites Pfundzeichen",
+      "aliases": ["geld", "währung", "pfund", "vollbreit"]
+    },
+    {
+      "value": "￥",
+      "name": "Vollbreites Yenzeichen",
+      "aliases": ["geld", "währung", "yen", "vollbreit"]
+    },
+    {
+      "value": "￦",
+      "name": "Vollbreites Wonzeichen",
+      "aliases": ["geld", "währung", "won", "vollbreit"]
     }
   ]
 }

@@ -3,243 +3,1318 @@
     {
       "value": "+",
       "name": "Plus",
-      "aliases": ["plus", "add", "addition", "calculate", "positive"]
+      "aliases": ["math", "plus", "add", "addition", "calculate", "positive"]
     },
     {
       "value": "−",
       "name": "Minus",
-      "aliases": ["minus", "sub", "subtract", "negative"]
+      "aliases": ["math", "minus", "sub", "subtract", "negative"]
     },
     {
       "value": "±",
       "name": "Plusminus",
-      "aliases": ["plusminus", "toleranz", "ungefähr"]
+      "aliases": ["math", "plusminus", "toleranz", "ungefähr"]
     },
     {
       "value": "×",
       "name": "Multiplication",
-      "aliases": ["multiply", "times", "multiplication"]
+      "aliases": ["math", "multiply", "times", "multiplication"]
     },
     {
       "value": "÷",
       "name": "Division",
-      "aliases": ["divide", "division", "divide by"]
+      "aliases": ["math", "divide", "division", "divide by"]
     },
     {
       "value": "∕",
       "name": "Fraction",
-      "aliases": ["fraction", "division", "slash"]
+      "aliases": ["math", "fraction", "division", "slash"]
     },
     {
       "value": "=",
       "name": "Equal",
-      "aliases": ["equal", "is equal"]
+      "aliases": ["math", "equal", "is equal"]
     },
     {
       "value": "≠",
       "name": "Not equal",
-      "aliases": ["not equal"]
+      "aliases": ["math", "not equal"]
     },
     {
       "value": "<",
       "name": "Less than",
-      "aliases": ["less than"]
+      "aliases": ["math", "less than"]
     },
-    { "value": ">", "name": "Greater than", "aliases": ["greater than"] },
+    { "value": ">", "name": "Greater than", "aliases": ["math", "greater than"] },
     {
       "value": "≤",
       "name": "Less than or equal to",
-      "aliases": ["less than or equal to"]
+      "aliases": ["math", "less than or equal to"]
     },
     {
       "value": "≥",
       "name": "Greater than or equal to",
-      "aliases": ["greater than or equal to"]
+      "aliases": ["math", "greater than or equal to"]
     },
     {
       "value": "≈",
       "name": "Approximately equal to",
-      "aliases": ["approximately equal to"]
+      "aliases": ["math", "approximately equal to"]
     },
     {
       "value": "≅",
       "name": "Congruent",
-      "aliases": ["congruent", "corresponds", "geometry"]
+      "aliases": ["math", "congruent", "corresponds", "geometry"]
     },
     {
       "value": "≡",
       "name": "Identical",
-      "aliases": ["identical", "three equals", "logic"]
+      "aliases": ["math", "identical", "three equals", "logic"]
     },
     {
       "value": "∑",
       "name": "Sum",
-      "aliases": ["sum", "sigma", "summation"]
+      "aliases": ["math", "sum", "sigma", "summation"]
     },
     {
       "value": "∏",
       "name": "Product",
-      "aliases": ["product", "pi", "multiplication"]
+      "aliases": ["math", "product", "pi", "multiplication"]
     },
     {
       "value": "∫",
       "name": "Integral",
-      "aliases": ["integral", "area"]
+      "aliases": ["math", "integral", "area"]
     },
     {
       "value": "√",
       "name": "Square root",
-      "aliases": ["square root"]
+      "aliases": ["math", "square root"]
     },
     {
       "value": "∛",
       "name": "Cube root",
-      "aliases": ["cube root"]
+      "aliases": ["math", "cube root"]
     },
     {
       "value": "∞",
       "name": "Infinity",
-      "aliases": ["infinity", "limit"]
+      "aliases": ["math", "infinity", "limit"]
     },
     {
       "value": "∝",
       "name": "Proportional",
-      "aliases": ["proportional", "ratio"]
+      "aliases": ["math", "proportional", "ratio"]
     },
     {
       "value": "∈",
       "name": "Element of",
-      "aliases": ["element", "in", "set theory"]
+      "aliases": ["math", "element", "in", "set theory"]
     },
     {
       "value": "∉",
       "name": "Not an element of",
-      "aliases": ["not an element of"]
+      "aliases": ["math", "not an element of"]
     },
     {
       "value": "⊂",
       "name": "Subset",
-      "aliases": ["subset"]
+      "aliases": ["math", "subset"]
     },
     {
       "value": "⊆",
       "name": "Subset or equal to",
-      "aliases": ["subset or equal to"]
+      "aliases": ["math", "subset or equal to"]
     },
     {
       "value": "⊃",
       "name": "Superset",
-      "aliases": ["superset"]
+      "aliases": ["math", "superset"]
     },
     {
       "value": "⊇",
       "name": "Superset or equal to",
-      "aliases": ["superset or equal to"]
+      "aliases": ["math", "superset or equal to"]
     },
     {
       "value": "∅",
       "name": "Empty set",
-      "aliases": ["empty set"]
+      "aliases": ["math", "empty set"]
     },
     {
       "value": "∧",
       "name": "And (logic)",
-      "aliases": ["and", "logic"]
+      "aliases": ["math", "and", "logic"]
     },
     {
       "value": "∨",
       "name": "Or (logic)s",
-      "aliases": ["or", "logic"]
+      "aliases": ["math", "or", "logic"]
     },
     {
       "value": "¬",
       "name": "Not (logic)",
-      "aliases": ["not", "logic", "negation"]
+      "aliases": ["math", "not", "logic", "negation"]
     },
     {
       "value": "⇒",
       "name": "Implication",
-      "aliases": ["implication", "follows"]
+      "aliases": ["math", "implication", "follows"]
     },
     {
       "value": "⇔",
       "name": "Equivalence",
-      "aliases": ["equivalence", "if and only if"]
+      "aliases": ["math", "equivalence", "if and only if"]
     },
     {
       "value": "½",
       "name": "Half",
-      "aliases": ["half"]
+      "aliases": ["math", "half"]
     },
     {
       "value": "¼",
       "name": "Quarter",
-      "aliases": ["quarter"]
+      "aliases": ["math", "quarter"]
     },
     {
       "value": "¾",
       "name": "Three quarters",
-      "aliases": ["three quarters"]
+      "aliases": ["math", "three quarters"]
     },
     {
       "value": "⅓",
       "name": "One third",
-      "aliases": ["one third"]
+      "aliases": ["math", "one third"]
     },
     {
       "value": "⅔",
       "name": "Two thirds",
-      "aliases": ["two thirds"]
+      "aliases": ["math", "two thirds"]
     },
     {
       "value": "⅕",
       "name": "One fifth",
-      "aliases": ["one fifth"]
+      "aliases": ["math", "one fifth"]
     },
     {
       "value": "⅖",
       "name": "Two fifths",
-      "aliases": ["two fifths"]
+      "aliases": ["math", "two fifths"]
     },
     {
       "value": "⅗",
       "name": "Three fifths",
-      "aliases": ["three fifths"]
+      "aliases": ["math", "three fifths"]
     },
     {
       "value": "⅘",
       "name": "Four fifths",
-      "aliases": ["four fifths"]
+      "aliases": ["math", "four fifths"]
     },
     {
       "value": "⅙",
       "name": "One sixth",
-      "aliases": ["one sixth"]
+      "aliases": ["math", "one sixth"]
     },
     {
       "value": "⅚",
       "name": "Five sixths",
-      "aliases": ["five sixths"]
+      "aliases": ["math", "five sixths"]
     },
     {
       "value": "⅛",
       "name": "One eighth",
-      "aliases": ["one eighth"]
+      "aliases": ["math", "one eighth"]
     },
     {
       "value": "⅜",
       "name": "Three eighths",
-      "aliases": ["three eighths"]
+      "aliases": ["math", "three eighths"]
     },
     {
       "value": "⅝",
       "name": "Five eighths",
-      "aliases": ["five eighths"]
+      "aliases": ["math", "five eighths"]
     },
     {
       "value": "⅞",
       "name": "Seven eighths",
-      "aliases": ["seven eighths"]
+      "aliases": ["math", "seven eighths"]
+    },
+    {
+      "value": "∀",
+      "name": "For all",
+      "aliases": ["math", "for all", "all quantor", "forall", "quantor"]
+    },
+    {
+      "value": "∁",
+      "name": "Complement",
+      "aliases": ["math", "complement", "not", "set theory", "complement"]
+    },
+    {
+      "value": "∂",
+      "name": "Partial derivative",
+      "aliases": ["math", "partial derivative", "d", "delta", "partial"]
+    },
+    {
+      "value": "∃",
+      "name": "There exists",
+      "aliases": ["math", "there exists", "existencequantor", "exists", "quantor"]
+    },
+    {
+      "value": "∄",
+      "name": "There does not exist",
+      "aliases": ["math", "there does not exist", "no", "existencequantor", "not exists"]
+    },
+    {
+      "value": "∅",
+      "name": "Empty set",
+      "aliases": ["math", "empty set"]
+    },
+    {
+      "value": "∇",
+      "name": "Nabla",
+      "aliases": ["math", "nabla", "gradient", "differentialoperator", "del"]
+    },
+    {
+      "value": "∈",
+      "name": "Element of",
+      "aliases": ["math", "element", "in", "set theory", "element of"]
+    },
+    {
+      "value": "∉",
+      "name": "Not an element of",
+      "aliases": ["math", "not an element of"]
+    },
+    {
+      "value": "∋",
+      "name": "Contains as member",
+      "aliases": ["math", "contains as member"]
+    },
+    {
+      "value": "∌",
+      "name": "Not contains as member",
+      "aliases": ["math", "not contains as member"]
+    },
+    {
+      "value": "∏",
+      "name": "Product",
+      "aliases": ["math", "product", "pi", "multiplication", "n-ary product"]
+    },
+    {
+      "value": "∐",
+      "name": "Koproduct",
+      "aliases": ["math", "coproduct", "summation", "n-ary", "coproduct"]
+    },
+    {
+      "value": "∑",
+      "name": "Sum",
+      "aliases": ["math", "sum", "sigma", "summation", "n-ary sum"]
+    },
+    {
+      "value": "−",
+      "name": "Minus",
+      "aliases": ["math", "minus", "subtract", "negative", "subtract"]
+    },
+    {
+      "value": "∓",
+      "name": "Minusplus",
+      "aliases": ["math", "minusplus", "plusminus", "tolerance", "approximately"]
+    },
+    {
+      "value": "∔",
+      "name": "Plus with dot",
+      "aliases": ["math", "plus with dot", "dot plus", "plus point"]
+    },
+    {
+      "value": "∖",
+      "name": "Set difference",
+      "aliases": ["math", "set difference", "set minus", "difference", "without"]
+    },
+    {
+      "value": "∗",
+      "name": "Asterisk-Operator",
+      "aliases": ["math", "asterisk", "multiplication", "operator", "asterisk"]
+    },
+    {
+      "value": "∘",
+      "name": "Circle operator",
+      "aliases": ["math", "circle", "function", "composition", "circle"]
+    },
+    {
+      "value": "∙",
+      "name": "Middle dot",
+      "aliases": ["math", "dot", "middle point", "multiplication", "dot"]
+    },
+    {
+      "value": "√",
+      "name": "Square root",
+      "aliases": ["math", "square root"]
+    },
+    {
+      "value": "∛",
+      "name": "Cube root",
+      "aliases": ["math", "cubic root"]
+    },
+    {
+      "value": "∜",
+      "name": "Fourth root",
+      "aliases": ["math", "fourth root"]
+    },
+    {
+      "value": "∝",
+      "name": "Proportional",
+      "aliases": ["math", "proportional", "ratio", "proportional to"]
+    },
+    {
+      "value": "∞",
+      "name": "Infinity",
+      "aliases": ["math", "infinity", "limit"]
+    },
+    {
+      "value": "∟",
+      "name": "Right angle",
+      "aliases": ["math", "right angle", "angle"]
+    },
+    {
+      "value": "∠",
+      "name": "Angle",
+      "aliases": ["math", "angle"]
+    },
+    {
+      "value": "∡",
+      "name": "Angle with arc",
+      "aliases": ["math", "angle", "arc"]
+    },
+    {
+      "value": "∢",
+      "name": "Triple angle",
+      "aliases": ["math", "triple angle", "measured angle"]
+    },
+    {
+      "value": "∣",
+      "name": "Divides",
+      "aliases": ["math", "divides", "divisor"]
+    },
+    {
+      "value": "∤",
+      "name": "Does not divide",
+      "aliases": ["math", "does not divide", "not divides"]
+    },
+    {
+      "value": "∥",
+      "name": "Parallel",
+      "aliases": ["math", "parallel", "parallelity"]
+    },
+    {
+      "value": "∦",
+      "name": "Not parallel",
+      "aliases": ["math", "not parallel"]
+    },
+    {
+      "value": "∧",
+      "name": "And (logic)",
+      "aliases": ["math", "and", "logic"]
+    },
+    {
+      "value": "∨",
+      "name": "Or (logic)",
+      "aliases": ["math", "or", "logic"]
+    },
+    {
+      "value": "∩",
+      "name": "Intersection",
+      "aliases": ["math", "intersection"]
+    },
+    {
+      "value": "∪",
+      "name": "Union",
+      "aliases": ["math", "union"]
+    },
+    {
+      "value": "∫",
+      "name": "Integral",
+      "aliases": ["math", "integral", "area", "integral sign"]
+    },
+    {
+      "value": "∬",
+      "name": "Double integral",
+      "aliases": ["math", "double integral"]
+    },
+    {
+      "value": "∭",
+      "name": "Triple integral",
+      "aliases": ["math", "triple integral"]
+    },
+    {
+      "value": "∮",
+      "name": "Curve integral",
+      "aliases": ["math", "integral", "curve", "area", "contour", "contour integral"]
+    },
+    {
+      "value": "∯",
+      "name": "Surface integral",
+      "aliases": ["math", "surface integral"]
+    },
+    {
+      "value": "∰",
+      "name": "Volume integral",
+      "aliases": ["math", "volume integral"]
+    },
+    {
+      "value": "∱",
+      "name": "Integral with arc",
+      "aliases": ["math", "integral", "arc", "integral with arc"]
+    },
+    {
+      "value": "∲",
+      "name": "Integral with double arc",
+      "aliases": ["math", "integral", "double arc", "integral with double arc"]
+    },
+    {
+      "value": "∳",
+      "name": "Integral with dash",
+      "aliases": ["math", "integral", "dash", "integral with dash"]
+    },
+    {
+      "value": "∴",
+      "name": "Therefore",
+      "aliases": ["math", "therefore", "conclusion", "therefore"]
+    },
+    {
+      "value": "∵",
+      "name": "Because",
+      "aliases": ["math", "because", "reason", "because"]
+    },
+    {
+      "value": "∶",
+      "name": "Ratio",
+      "aliases": ["math", "ratio", "ratio"]
+    },
+    {
+      "value": "∷",
+      "name": "Proportionality",
+      "aliases": ["math", "proportionality", "proportion", "equal ratio"]
+    },
+    {
+      "value": "∸",
+      "name": "Minus with dot",
+      "aliases": ["math", "minus with dot", "dot minus", "minus with dot"]
+    },
+    {
+      "value": "∹",
+      "name": "Division with arc",
+      "aliases": ["math", "division", "arc", "excess"]
+    },
+    {
+      "value": "∺",
+      "name": "Geometric difference",
+      "aliases": ["math", "geometric difference"]
+    },
+    {
+      "value": "∻",
+      "name": "Homothetic",
+      "aliases": ["math", "homothetic"]
+    },
+    {
+      "value": "∼",
+      "name": "Tilde",
+      "aliases": ["math", "tilde", "similar", "proportional"]
+    },
+    {
+      "value": "∽",
+      "name": "Reversed tilde",
+      "aliases": ["math", "reversed tilde", "similar"]
+    },
+    {
+      "value": "∾",
+      "name": "Tilde with arrow",
+      "aliases": ["math", "tilde", "arrow", "sine wave"]
+    },
+    {
+      "value": "∿",
+      "name": "Double tilde with arrow",
+      "aliases": ["math", "tilde", "arrow", "double tilde", "reversed sine wave"]
+    },
+    {
+      "value": "≀",
+      "name": "Crown",
+      "aliases": ["math", "crown", "wreath product"]
+    },
+    {
+      "value": "≁",
+      "name": "Not similar",
+      "aliases": ["math", "not similar"]
+    },
+    {
+      "value": "≂",
+      "name": "Tilde with dot",
+      "aliases": ["math", "tilde", "dot", "minus tilde"]
+    },
+    {
+      "value": "≃",
+      "name": "Tilde with equal",
+      "aliases": ["math", "tilde", "equal", "tilde equal"]
+    },
+    {
+      "value": "≄",
+      "name": "Not tilde equal",
+      "aliases": ["math", "not tilde equal"]
+    },
+    {
+      "value": "≅",
+      "name": "Congruent",
+      "aliases": ["math", "congruent", "corresponds", "geometry", "congruent"]
+    },
+    {
+      "value": "≆",
+      "name": "Approximately identical",
+      "aliases": ["math", "approximately identical"]
+    },
+    {
+      "value": "≇",
+      "name": "Not congruent",
+      "aliases": ["math", "not congruent"]
+    },
+    {
+      "value": "≈",
+      "name": "Approximately equal",
+      "aliases": ["math", "approximately equal"]
+    },
+    {
+      "value": "≉",
+      "name": "Not approximately equal",
+      "aliases": ["math", "not approximately equal"]
+    },
+    {
+      "value": "≊",
+      "name": "Equal with dot",
+      "aliases": ["math", "equal with dot"]
+    },
+    {
+      "value": "≋",
+      "name": "Triple equal",
+      "aliases": ["math", "triple equal"]
+    },
+    {
+      "value": "≌",
+      "name": "All equal",
+      "aliases": ["math", "all equal"]
+    },
+    {
+      "value": "≍",
+      "name": "Equal or equivalent",
+      "aliases": ["math", "equal", "equivalent"]
+    },
+    {
+      "value": "≎",
+      "name": "Equal with asterisk",
+      "aliases": ["math", "equal with asterisk"]
+    },
+    {
+      "value": "≏",
+      "name": "Fast equal",
+      "aliases": ["math", "fast equal", "corresponds to"]
+    },
+    {
+      "value": "≐",
+      "name": "Ring equal",
+      "aliases": ["math", "ring equal", "circle equals"]
+    },
+    {
+      "value": "≑",
+      "name": "Geometrically equal",
+      "aliases": ["math", "geometrically equal"]
+    },
+    {
+      "value": "≒",
+      "name": "Approaches",
+      "aliases": ["math", "approaches"]
+    },
+    {
+      "value": "≓",
+      "name": "Equal with question",
+      "aliases": ["math", "equal", "question", "questioned equal"]
+    },
+    {
+      "value": "≔",
+      "name": "Defined as",
+      "aliases": ["math", "defined as", "is defined as", "colon equals"]
+    },
+    {
+      "value": "≕",
+      "name": "Equal with colon",
+      "aliases": ["math", "equal", "colon", "equals colon"]
+    },
+    {
+      "value": "≖",
+      "name": "Ring equal with dot",
+      "aliases": ["math", "ring equal", "dot", "circle equals with dot"]
+    },
+    {
+      "value": "≗",
+      "name": "Ring equal with plus",
+      "aliases": ["math", "ring equal", "plus", "circle equals with plus"]
+    },
+    {
+      "value": "≘",
+      "name": "Equal with right arrow",
+      "aliases": ["math", "equal", "arrow", "equal arrow right"]
+    },
+    {
+      "value": "≙",
+      "name": "Corresponds to",
+      "aliases": ["math", "corresponds to"]
+    },
+    {
+      "value": "≚",
+      "name": "Equal with star",
+      "aliases": ["math", "equal", "star", "equals with star"]
+    },
+    {
+      "value": "≛",
+      "name": "Star equal",
+      "aliases": ["math", "star equal", "star equals"]
+    },
+    {
+      "value": "≜",
+      "name": "Defined as (equal)",
+      "aliases": ["math", "defined as", "equal", "triangle equals"]
+    },
+    {
+      "value": "≝",
+      "name": "Defined as (double colon)",
+      "aliases": ["math", "defined as", "double colon", "equal by definition"]
+    },
+    {
+      "value": "≞",
+      "name": "Equal with question mark",
+      "aliases": ["math", "equal", "question mark", "equal with question"]
+    },
+    {
+      "value": "≟",
+      "name": "Equality with question",
+      "aliases": ["math", "equality", "question", "equality with question"]
+    },
+    {
+      "value": "≠",
+      "name": "Not equal",
+      "aliases": ["math", "not equal"]
+    },
+    {
+      "value": "≡",
+      "name": "Identical",
+      "aliases": ["math", "identical", "three equal", "logic", "identical equal"]
+    },
+    {
+      "value": "≤",
+      "name": "Less or equal",
+      "aliases": ["math", "less or equal"]
+    },
+    {
+      "value": "≥",
+      "name": "Greater or equal",
+      "aliases": ["math", "greater or equal"]
+    },
+    {
+      "value": "≦",
+      "name": "Less than over equal",
+      "aliases": ["math", "less than over equal"]
+    },
+    {
+      "value": "≧",
+      "name": "Greater than over equal",
+      "aliases": ["math", "greater than over equal"]
+    },
+    {
+      "value": "≨",
+      "name": "Less than but not equal",
+      "aliases": ["math", "less but not equal"]
+    },
+    {
+      "value": "≩",
+      "name": "Greater than but not equal",
+      "aliases": ["math", "greater but not equal"]
+    },
+    {
+      "value": "≪",
+      "name": "Much less than",
+      "aliases": ["math", "much less than"]
+    },
+    {
+      "value": "≫",
+      "name": "Much greater than",
+      "aliases": ["math", "much greater than"]
+    },
+    {
+      "value": "≬",
+      "name": "Between",
+      "aliases": ["math", "between"]
+    },
+    {
+      "value": "≭",
+      "name": "Not equivalent",
+      "aliases": ["math", "not equivalent"]
+    },
+    {
+      "value": "≮",
+      "name": "Not less than",
+      "aliases": ["math", "not less than"]
+    },
+    {
+      "value": "≯",
+      "name": "Not greater than",
+      "aliases": ["math", "not greater than"]
+    },
+    {
+      "value": "⊂",
+      "name": "Subset",
+      "aliases": ["math", "subset"]
+    },
+    {
+      "value": "⊃",
+      "name": "Superset",
+      "aliases": ["math", "superset"]
+    },
+    {
+      "value": "⊄",
+      "name": "Not subset",
+      "aliases": ["math", "not subset"]
+    },
+    {
+      "value": "⊅",
+      "name": "Not superset",
+      "aliases": ["math", "not superset"]
+    },
+    {
+      "value": "⊆",
+      "name": "Subset or equal",
+      "aliases": ["math", "subset or equal"]
+    },
+    {
+      "value": "⊇",
+      "name": "Superset or equal",
+      "aliases": ["math", "superset or equal"]
+    },
+    {
+      "value": "⊈",
+      "name": "Not subset or equal",
+      "aliases": ["math", "not subset or equal"]
+    },
+    {
+      "value": "⊉",
+      "name": "Not superset or equal",
+      "aliases": ["math", "not superset or equal"]
+    },
+    {
+      "value": "⊊",
+      "name": "Proper subset",
+      "aliases": ["math", "proper subset"]
+    },
+    {
+      "value": "⊋",
+      "name": "Proper superset",
+      "aliases": ["math", "proper superset"]
+    },
+    {
+      "value": "⊎",
+      "name": "Disjoint union",
+      "aliases": ["math", "disjoint union"]
+    },
+    {
+      "value": "⊏",
+      "name": "Square subset",
+      "aliases": ["math", "square subset"]
+    },
+    {
+      "value": "⊐",
+      "name": "Square superset",
+      "aliases": ["math", "square superset"]
+    },
+    {
+      "value": "⊑",
+      "name": "Square subset equal",
+      "aliases": ["math", "square subset equal"]
+    },
+    {
+      "value": "⊒",
+      "name": "Square superset equal",
+      "aliases": ["math", "square superset equal"]
+    },
+    {
+      "value": "⊓",
+      "name": "Square intersection",
+      "aliases": ["math", "square intersection"]
+    },
+    {
+      "value": "⊔",
+      "name": "Square union",
+      "aliases": ["math", "square union"]
+    },
+    {
+      "value": "⊕",
+      "name": "Circle plus",
+      "aliases": ["math", "xor", "direct", "sum", "plus", "direct sum", "circle plus"]
+    },
+    {
+      "value": "⊖",
+      "name": "Circle minus",
+      "aliases": ["math", "circle minus"]
+    },
+    {
+      "value": "⊗",
+      "name": "Circle times",
+      "aliases": ["math", "tensor product", "circle times"]
+    },
+    {
+      "value": "⊘",
+      "name": "Circle division",
+      "aliases": ["math", "circle division"]
+    },
+    {
+      "value": "⊙",
+      "name": "Circle dot",
+      "aliases": ["math", "circle dot"]
+    },
+    {
+      "value": "⊚",
+      "name": "Circle asterisk",
+      "aliases": ["math", "circle asterisk"]
+    },
+    {
+      "value": "⊛",
+      "name": "Circle ring",
+      "aliases": ["math", "circle ring"]
+    },
+    {
+      "value": "⊜",
+      "name": "Circle equals",
+      "aliases": ["math", "circle equals"]
+    },
+    {
+      "value": "⊝",
+      "name": "Circle dash",
+      "aliases": ["math", "circled dash"]
+    },
+    {
+      "value": "⊞",
+      "name": "Box plus",
+      "aliases": ["math", "box plus"]
+    },
+    {
+      "value": "⊟",
+      "name": "Box minus",
+      "aliases": ["math", "box minus"]
+    },
+    {
+      "value": "⊠",
+      "name": "Box times",
+      "aliases": ["math", "box times"]
+    },
+    {
+      "value": "⊡",
+      "name": "Box dot",
+      "aliases": ["math", "box dot"]
+    },
+    {
+      "value": "⊢",
+      "name": "Derivable",
+      "aliases": ["math", "derivable", "turnstile", "folgerung"]
+    },
+    {
+      "value": "⊣",
+      "name": "Reverse Turnstile",
+      "aliases": ["math", "reverse turnstile", "reverse derivable"]
+    },
+    {
+      "value": "⊤",
+      "name": "True",
+      "aliases": ["math", "true", "top"]
+    },
+    {
+      "value": "⊥",
+      "name": "False",
+      "aliases": ["math", "false", "bottom", "orthogonal", "senkrecht"]
+    },
+    {
+      "value": "⊦",
+      "name": "Derivable (double stroke)",
+      "aliases": ["math", "derivable", "double turnstile"]
+    },
+    {
+      "value": "⊧",
+      "name": "Satisfiable",
+      "aliases": ["math", "satisfiable", "models"]
+    },
+    {
+      "value": "⊨",
+      "name": "Satisfiable (double)",
+      "aliases": ["math", "satisfiable", "double models"]
+    },
+    {
+      "value": "⊩",
+      "name": "Forcingsymbol",
+      "aliases": ["math", "forcingsymbol", "forcing"]
+    },
+    {
+      "value": "⊪",
+      "name": "Triple Turnstile",
+      "aliases": ["math", "triple turnstile"]
+    },
+    {
+      "value": "⊫",
+      "name": "Negated Double Turnstile",
+      "aliases": ["math", "negated double turnstile"]
+    },
+    {
+      "value": "⊬",
+      "name": "Not derivable",
+      "aliases": ["math", "not derivable", "not turnstile"]
+    },
+    {
+      "value": "⊭",
+      "name": "Not satisfiable",
+      "aliases": ["math", "not satisfiable", "not models"]
+    },
+    {
+      "value": "⊮",
+      "name": "Not satisfiable (double)",
+      "aliases": ["math", "not satisfiable double", "not double models"]
+    },
+    {
+      "value": "⊯",
+      "name": "Not derivable (double)",
+      "aliases": ["math", "not derivable double", "not double turnstile"]
+    },
+    {
+      "value": "⊰",
+      "name": "Precedes under relation",
+      "aliases": ["math", "precedes under relation"]
+    },
+    {
+      "value": "⊱",
+      "name": "Succeeds under relation",
+      "aliases": ["math", "succeeds under relation"]
+    },
+    {
+      "value": "⊲",
+      "name": "Normal subgroup",
+      "aliases": ["math", "normal subgroup", "triangle left"]
+    },
+    {
+      "value": "⊳",
+      "name": "Normal subgroup",
+      "aliases": ["math", "normal subgroup right", "triangle right"]
+    },
+    {
+      "value": "⊴",
+      "name": "Normal subgroup",
+      "aliases": ["math", "normal subgroup equal", "triangle left equal"]
+    },
+    {
+      "value": "⊵",
+      "name": "Normal subgroup",
+      "aliases": ["math", "normal subgroup right equal", "triangle right equal"]
+    },
+    {
+      "value": "⊶",
+      "name": "Original of",
+      "aliases": ["math", "original of"]
+    },
+    {
+      "value": "⊷",
+      "name": "Image of",
+      "aliases": ["math", "image of"]
+    },
+    {
+      "value": "⊸",
+      "name": "Multimap",
+      "aliases": ["math", "multimap"]
+    },
+    {
+      "value": "⊹",
+      "name": "Hermitian conjugate",
+      "aliases": ["math", "hermitian conjugate"]
+    },
+    {
+      "value": "⊺",
+      "name": "Transpose",
+      "aliases": ["math", "transpose"]
+    },
+    {
+      "value": "⊻",
+      "name": "XOR",
+      "aliases": ["math", "xor", "exclusive or"]
+    },
+    {
+      "value": "⊼",
+      "name": "NAND",
+      "aliases": ["math", "nand", "not and"]
+    },
+    {
+      "value": "⊽",
+      "name": "NOR",
+      "aliases": ["math", "nor", "not or"]
+    },
+    {
+      "value": "⊾",
+      "name": "Right angle with arc",
+      "aliases": ["math", "right angle with arc"]
+    },
+    {
+      "value": "⊿",
+      "name": "Triangle",
+      "aliases": ["math", "triangle"]
+    },
+    {
+      "value": "⋀",
+      "name": "N-Conjunction",
+      "aliases": ["math", "n-ary and"]
+    },
+    {
+      "value": "⋁",
+      "name": "N-Disjunction",
+      "aliases": ["math", "n-ary or"]
+    },
+    {
+      "value": "⋂",
+      "name": "N-Intersection",
+      "aliases": ["math", "n-ary intersection"]
+    },
+    {
+      "value": "⋃",
+      "name": "N-Union",
+      "aliases": ["math", "n-ary union"]
+    },
+    {
+      "value": "⋄",
+      "name": "Rhombus-Operator",
+      "aliases": ["math", "rhombus", "diamond", "operator"]
+    },
+    {
+      "value": "⋅",
+      "name": "Dot",
+      "aliases": ["math", "dot", "multiplication"]
+    },
+    {
+      "value": "⋆",
+      "name": "Star",
+      "aliases": ["math", "star", "operator"]
+    },
+    {
+      "value": "⋇",
+      "name": "Division times",
+      "aliases": ["math", "division times"]
+    },
+    {
+      "value": "⋈",
+      "name": "Bowtie",
+      "aliases": ["math", "join", "relation", "bowtie"]
+    },
+    {
+      "value": "⋉",
+      "name": "Left normal join",
+      "aliases": ["math", "left normal join"]
+    },
+    {
+      "value": "⋊",
+      "name": "Right normal join",
+      "aliases": ["math", "right normal join"]
+    },
+    {
+      "value": "⋋",
+      "name": "Left semidirect product",
+      "aliases": ["math", "left semidirect product"]
+    },
+    {
+      "value": "⋌",
+      "name": "Right semidirect product",
+      "aliases": ["math", "right semidirect product"]
+    },
+    {
+      "value": "⋍",
+      "name": "Equals with tilde",
+      "aliases": ["math", "equals tilde"]
+    },
+    {
+      "value": "⋎",
+      "name": "N-ary logical or",
+      "aliases": ["math", "n-ary logical or"]
+    },
+    {
+      "value": "⋏",
+      "name": "N-ary logical and",
+      "aliases": ["math", "n-ary logical and"]
+    },
+    {
+      "value": "⋐",
+      "name": "Double subset",
+      "aliases": ["math", "double subset"]
+    },
+    {
+      "value": "⋑",
+      "name": "Double superset",
+      "aliases": ["math", "double superset"]
+    },
+    {
+      "value": "⋒",
+      "name": "Double intersection",
+      "aliases": ["math", "double intersection"]
+    },
+    {
+      "value": "⋓",
+      "name": "Double union",
+      "aliases": ["math", "double union"]
+    },
+    {
+      "value": "⋔",
+      "name": "Pitchfork",
+      "aliases": ["math", "pitchfork"]
+    },
+    {
+      "value": "⋕",
+      "name": "Equal and parallel",
+      "aliases": ["math", "equal and parallel"]
+    },
+    {
+      "value": "⋖",
+      "name": "Less than with dot",
+      "aliases": ["math", "less than with dot"]
+    },
+    {
+      "value": "⋗",
+      "name": "Greater than with dot",
+      "aliases": ["math", "greater than with dot"]
+    },
+    {
+      "value": "⋘",
+      "name": "Very much less than",
+      "aliases": ["math", "very much less than"]
+    },
+    {
+      "value": "⋙",
+      "name": "Very much greater than",
+      "aliases": ["math", "very much greater than"]
+    },
+    {
+      "value": "⋚",
+      "name": "Equals or less than",
+      "aliases": ["math", "equals or less than"]
+    },
+    {
+      "value": "⋛",
+      "name": "Equals or greater than",
+      "aliases": ["math", "equals or greater than"]
+    },
+    {
+      "value": "⋜",
+      "name": "Equal with less than",
+      "aliases": ["math", "equal with less than"]
+    },
+    {
+      "value": "⋝",
+      "name": "Equal with greater than",
+      "aliases": ["math", "equal with greater than"]
+    },
+    {
+      "value": "⋞",
+      "name": "Equal with less than and dot",
+      "aliases": ["math", "equal with less than and dot"]
+    },
+    {
+      "value": "⋟",
+      "name": "Equal with greater than and dot",
+      "aliases": ["math", "equal with greater than and dot"]
+    },
+    {
+      "value": "⋠",
+      "name": "Not equal with less than",
+      "aliases": ["math", "not equal with less than"]
+    },
+    {
+      "value": "⋡",
+      "name": "Not equal with greater than",
+      "aliases": ["math", "not equal with greater than"]
+    },
+    {
+      "value": "⋢",
+      "name": "Double subset with dot",
+      "aliases": ["math", "double subset with dot"]
+    },
+    {
+      "value": "⋣",
+      "name": "Double superset with dot",
+      "aliases": ["math", "double superset with dot"]
+    },
+    {
+      "value": "⋤",
+      "name": "Subset with dot",
+      "aliases": ["math", "subset with dot"]
+    },
+    {
+      "value": "⋥",
+      "name": "Superset with dot",
+      "aliases": ["math", "superset with dot"]
+    },
+    {
+      "value": "⋦",
+      "name": "Left outer join",
+      "aliases": ["math", "left outer join"]
+    },
+    {
+      "value": "⋧",
+      "name": "Right outer join",
+      "aliases": ["math", "right outer join"]
+    },
+    {
+      "value": "⋨",
+      "name": "Full outer join",
+      "aliases": ["math", "full outer join"]
+    },
+    {
+      "value": "⋩",
+      "name": "Double left join",
+      "aliases": ["math", "double left join"]
+    },
+    {
+      "value": "⋪",
+      "name": "Double right join",
+      "aliases": ["math", "double right join"]
+    },
+    {
+      "value": "⋫",
+      "name": "Double full join",
+      "aliases": ["math", "double full join"]
+    },
+    {
+      "value": "⋬",
+      "name": "Left semijoin",
+      "aliases": ["math", "left semijoin"]
+    },
+    {
+      "value": "⋭",
+      "name": "Right semijoin",
+      "aliases": ["math", "right semijoin"]
+    },
+    {
+      "value": "⋮",
+      "name": "Vertical ellipsis",
+      "aliases": ["math", "vertical ellipsis"]
+    },
+    {
+      "value": "⋯",
+      "name": "Horizontal ellipsis",
+      "aliases": ["math", "ellipsis", "horizontal ellipsis"]
+    },
+    {
+      "value": "⋰",
+      "name": "Diagonal ellipsis",
+      "aliases": ["math", "diagonal ellipsis"]
+    },
+    {
+      "value": "⋱",
+      "name": "Diagonal ellipsis",
+      "aliases": ["math", "diagonal ellipsis"]
     }
   ]
 }

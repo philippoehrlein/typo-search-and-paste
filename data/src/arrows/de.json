@@ -51,6 +51,16 @@
       "aliases": ["oben unten", "pfeil", "arrow", "bidirektional"]
     },
     {
+      "value": "↚",
+      "name": "Pfeil nach links durchgestrichen",
+      "aliases": ["links durchgestrichen", "pfeil", "arrow"]
+    },
+    {
+      "value": "↛",
+      "name": "Pfeil nach rechts durchgestrichen",
+      "aliases": ["rechts durchgestrichen", "pfeil", "arrow"]
+    },
+    {
       "value": "⇨",
       "name": "fetter Pfeil nach rechts",
       "aliases": ["rechts", "fett", "pfeil", "arrow"]
@@ -104,6 +114,81 @@
       "value": "⟶",
       "name": "Mathematischer langer Pfeil nach rechts",
       "aliases": ["rechtspfeil", "lang", "mathematik", "pfeil", "folge", "funktion"]
+    },
+    {
+      "value": "↜",
+      "name": "Wellenpfeil nach links",
+      "aliases": ["links", "pfeil", "welle", "geschwungen", "arrow"]
+    },
+    {
+      "value": "↝",
+      "name": "Wellenpfeil nach rechts",
+      "aliases": ["rechts", "pfeil", "welle", "geschwungen", "arrow"]
+    },
+    {
+      "value": "↞",
+      "name": "Doppelpfeil nach links",
+      "aliases": ["links", "doppelt", "pfeil", "arrow"]
+    },
+    {
+      "value": "↟",
+      "name": "Doppelpfeil nach oben",
+      "aliases": ["oben", "doppelt", "pfeil", "arrow"]
+    },
+    {
+      "value": "↠",
+      "name": "Doppelpfeil nach rechts",
+      "aliases": ["rechts", "doppelt", "pfeil", "arrow"]
+    },
+    {
+      "value": "↡",
+      "name": "Doppelpfeil nach unten",
+      "aliases": ["unten", "doppelt", "pfeil", "arrow"]
+    },
+    {
+      "value": "↢",
+      "name": "Pfeil nach links mit Schweif",
+      "aliases": ["links", "pfeil", "schweif", "arrow"]
+    },
+    {
+      "value": "↣",
+      "name": "Pfeil nach rechts mit Schweif",
+      "aliases": ["rechts", "pfeil", "schweif", "arrow"]
+    },
+    {
+      "value": "↤",
+      "name": "Pfeil nach links von Strich",
+      "aliases": ["links", "strich", "pfeil", "arrow"]
+    },
+    {
+      "value": "↥",
+      "name": "Pfeil nach oben von Strich",
+      "aliases": ["oben", "strich", "pfeil", "arrow"]
+    },
+    {
+      "value": "↦",
+      "name": "Pfeil nach rechts von Strich",
+      "aliases": ["rechts", "strich", "pfeil", "arrow"]
+    },
+    {
+      "value": "↧",
+      "name": "Pfeil nach unten von Strich",
+      "aliases": ["unten", "strich", "pfeil", "arrow"]
+    },
+    {
+      "value": "↨",
+      "name": "Auf und ab Pfeil mit Basis",
+      "aliases": ["oben unten", "pfeil", "basis", "arrow"]
+    },
+    {
+      "value": "↩",
+      "name": "Pfeil nach links mit Haken",
+      "aliases": ["links", "haken", "pfeil", "arrow"]
+    },
+    {
+      "value": "↪",
+      "name": "Pfeil nach rechts mit Haken",
+      "aliases": ["rechts", "haken", "pfeil", "arrow"]
     }
   ]
 }

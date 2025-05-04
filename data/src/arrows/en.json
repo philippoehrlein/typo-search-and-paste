@@ -51,6 +51,16 @@
       "aliases": ["up down", "arrow", "bidirectional"]
     },
     {
+      "value": "↚",
+      "name": "Left arrow with stroke",
+      "aliases": ["left", "arrow", "stroke"]
+    },
+    {
+      "value": "↛",
+      "name": "Right arrow with stroke",
+      "aliases": ["right", "arrow", "stroke"]
+    },
+    {
       "value": "⇨",
       "name": "Right-pointing double arrow",
       "aliases": ["right", "double arrow", "arrow"]
@@ -104,6 +114,81 @@
       "value": "⟶",
       "name": "Long right arrow",
       "aliases": ["right arrow", "long", "mathematics", "arrow", "sequence", "function"]
+    },
+    {
+      "value": "↜",
+      "name": "Wavy left arrow",
+      "aliases": ["left", "arrow", "wavy", "arrow"]
+    },
+    {
+      "value": "↝",
+      "name": "Wavy right arrow",
+      "aliases": ["right", "arrow", "wavy", "arrow"]
+    },
+    {
+      "value": "↞",
+      "name": "Double left arrow",
+      "aliases": ["left", "double", "arrow"]
+    },
+    {
+      "value": "↟",
+      "name": "Double up arrow",
+      "aliases": ["up", "double", "arrow"]
+    },
+    {
+      "value": "↠",
+      "name": "Double right arrow",
+      "aliases": ["right", "double", "arrow"]
+    },
+    {
+      "value": "↡",
+      "name": "Double down arrow",
+      "aliases": ["down", "double", "arrow"]
+    },
+    {
+      "value": "↢",
+      "name": "Left arrow with tail",
+      "aliases": ["left", "arrow", "tail", "arrow"]
+    },
+    {
+      "value": "↣",
+      "name": "Right arrow with tail",
+      "aliases": ["right", "arrow", "tail", "arrow"]
+    },
+    {
+      "value": "↤",
+      "name": "Left arrow with stroke",
+      "aliases": ["left", "stroke", "arrow"]
+    },
+    {
+      "value": "↥",
+      "name": "Up arrow with stroke",
+      "aliases": ["up", "stroke", "arrow"]
+    },
+    {
+      "value": "↦",
+      "name": "Right arrow with stroke",
+      "aliases": ["right", "stroke", "arrow"]
+    },
+    {
+      "value": "↧",
+      "name": "Down arrow with stroke",
+      "aliases": ["down", "stroke", "arrow"]
+    },
+    {
+      "value": "↨",
+      "name": "Up-down arrow with base",
+      "aliases": ["up down", "arrow", "base"]
+    },
+    {
+      "value": "↩",
+      "name": "Left arrow with hook",
+      "aliases": ["left", "hook", "arrow"]
+    },
+    {
+      "value": "↪",
+      "name": "Right arrow with hook",
+      "aliases": ["right", "hook", "arrow"]
     }
   ]
 }

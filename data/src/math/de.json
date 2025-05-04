@@ -3,243 +3,1319 @@
     {
       "value": "+",
       "name": "Plus",
-      "aliases": ["plus", "addieren", "addition", "rechnen", "positiv"]
+      "aliases": ["mathematik", "plus", "addieren", "addition", "rechnen", "positiv"]
     },
     {
       "value": "−",
       "name": "Minus",
-      "aliases": ["minus", "subtraktion", "negativ", "abziehen"]
+      "aliases": ["mathematik", "minus", "subtraktion", "negativ", "abziehen"]
     },
     {
       "value": "±",
       "name": "Plusminus",
-      "aliases": ["plusminus", "toleranz", "ungefähr"]
+      "aliases": ["mathematik", "plusminus", "toleranz", "ungefähr"]
     },
     {
       "value": "×",
       "name": "Malzeichen",
-      "aliases": ["mal", "multiplikation", "kreuz", "vervielfachen"]
+      "aliases": ["mathematik", "mal", "multiplikation", "kreuz", "vervielfachen"]
     },
     {
       "value": "÷",
       "name": "Geteiltzeichen",
-      "aliases": ["geteilt", "division", "durch"]
+      "aliases": ["mathematik", "geteilt", "division", "durch"]
     },
     {
       "value": "∕",
       "name": "Bruchstrich",
-      "aliases": ["bruch", "division", "schrägstrich"]
+      "aliases": ["mathematik", "bruch", "division", "schrägstrich"]
     },
     {
       "value": "=",
       "name": "Gleich",
-      "aliases": ["gleich", "ist gleich"]
+      "aliases": ["mathematik", "gleich", "ist gleich"]
     },
     {
       "value": "≠",
       "name": "Ungleich",
-      "aliases": ["ungleich", "nicht gleich"]
+      "aliases": ["mathematik", "ungleich", "nicht gleich"]
     },
     {
       "value": "<",
       "name": "Kleiner als",
-      "aliases": ["kleiner", "weniger"]
+      "aliases": ["mathematik", "kleiner", "weniger"]
     },
-    { "value": ">", "name": "Größer als", "aliases": ["größer", "mehr"] },
+    { "value": ">", "name": "Größer als", "aliases": ["mathematik", "größer", "mehr"] },
     {
       "value": "≤",
       "name": "Kleiner gleich",
-      "aliases": ["kleiner gleich", "weniger gleich"]
+      "aliases": ["mathematik", "kleiner gleich", "weniger gleich"]
     },
     {
       "value": "≥",
       "name": "Größer gleich",
-      "aliases": ["größer gleich", "mehr gleich"]
+      "aliases": ["mathematik", "größer gleich", "mehr gleich"]
     },
     {
       "value": "≈",
       "name": "Ungefähr gleich",
-      "aliases": ["ungefähr", "etwa", "approximativ"]
+      "aliases": ["mathematik", "ungefähr", "etwa", "approximativ"]
     },
     {
       "value": "≅",
       "name": "Kongruent",
-      "aliases": ["kongruent", "entspricht", "geometrie"]
+      "aliases": ["mathematik", "kongruent", "entspricht", "geometrie"]
     },
     {
       "value": "≡",
       "name": "Identisch",
-      "aliases": ["identisch", "drei gleich", "logik"]
+      "aliases": ["mathematik", "identisch", "drei gleich", "logik"]
     },
     {
       "value": "∑",
       "name": "Summenzeichen",
-      "aliases": ["summe", "sigma", "summation"]
+      "aliases": ["mathematik", "summe", "sigma", "summation"]
     },
     {
       "value": "∏",
       "name": "Produktzeichen",
-      "aliases": ["produkt", "pi", "multiplikation"]
+      "aliases": ["mathematik", "produkt", "pi", "multiplikation"]
     },
     {
       "value": "∫",
       "name": "Integralzeichen",
-      "aliases": ["integral", "flächensumme", "fläche"]
+      "aliases": ["mathematik", "integral", "flächensumme", "fläche"]
     },
     {
       "value": "√",
       "name": "Wurzelzeichen",
-      "aliases": ["wurzel", "quadratwurzel"]
+      "aliases": ["mathematik", "wurzel", "quadratwurzel"]
     },
     {
       "value": "∛",
       "name": "Kubikwurzel",
-      "aliases": ["kubikwurzel", "dritte wurzel"]
+      "aliases": ["mathematik", "kubikwurzel", "dritte wurzel"]
     },
     {
       "value": "∞",
       "name": "Unendlichzeichen",
-      "aliases": ["unendlich", "grenzwert"]
+      "aliases": ["mathematik", "unendlich", "grenzwert"]
     },
     {
       "value": "∝",
       "name": "Proportional",
-      "aliases": ["proportional", "verhältnis"]
+      "aliases": ["mathematik", "proportional", "verhältnis"]
     },
     {
       "value": "∈",
       "name": "Element von",
-      "aliases": ["element", "in", "mengenlehre"]
+      "aliases": ["mathematik", "element", "in", "mengenlehre"]
     },
     {
       "value": "∉",
       "name": "Kein Element von",
-      "aliases": ["kein element", "nicht in"]
+      "aliases": ["mathematik", "kein element", "nicht in"]
     },
     {
       "value": "⊂",
       "name": "Teilmenge",
-      "aliases": ["teilmenge", "subset"]
+      "aliases": ["mathematik", "teilmenge", "subset"]
     },
     {
       "value": "⊆",
       "name": "Teilmenge oder gleich",
-      "aliases": ["teilmenge gleich"]
+      "aliases": ["mathematik", "teilmenge gleich"]
     },
     {
       "value": "⊃",
       "name": "Obermenge",
-      "aliases": ["obermenge", "superset"]
+      "aliases": ["mathematik", "obermenge", "superset"]
     },
     {
       "value": "⊇",
       "name": "Obermenge oder gleich",
-      "aliases": ["obermenge gleich"]
+      "aliases": ["mathematik", "obermenge gleich"]
     },
     {
       "value": "∅",
       "name": "Leere Menge",
-      "aliases": ["leer", "leere menge", "nullmenge"]
+      "aliases": ["mathematik", "leer", "leere menge", "nullmenge"]
     },
     {
       "value": "∧",
       "name": "Und (logisch)",
-      "aliases": ["und", "logik", "and"]
+      "aliases": ["mathematik", "und", "logik", "and"]
     },
     {
       "value": "∨",
       "name": "Oder (logisch)",
-      "aliases": ["oder", "logik", "or"]
+      "aliases": ["mathematik", "oder", "logik", "or"]
     },
     {
       "value": "¬",
       "name": "Nicht (logisch)",
-      "aliases": ["nicht", "logik", "negation"]
+      "aliases": ["mathematik", "nicht", "logik", "negation"]
     },
     {
       "value": "⇒",
       "name": "Implikation",
-      "aliases": ["implikation", "folgt"]
+      "aliases": ["mathematik", "implikation", "folgt"]
     },
     {
       "value": "⇔",
       "name": "Äquivalenz",
-      "aliases": ["äquivalent", "genau dann wenn"]
+      "aliases": ["mathematik", "äquivalent", "genau dann wenn"]
     },
     {
       "value": "½",
       "name": "ein Halb",
-      "aliases": ["ein halb", "ein halbe", "ein halben"]
+      "aliases": ["mathematik", "ein halb", "ein halbe", "ein halben"]
     },
     {
       "value": "¼",
       "name": "ein Viertel",
-      "aliases": ["ein viertel", "ein viertelte", "ein viertelten"]
+      "aliases": ["mathematik", "ein viertel", "ein viertelte", "ein viertelten"]
     },
     {
       "value": "¾",
       "name": "drei Viertel",
-      "aliases": ["drei viertel", "drei viertelte", "drei viertelten"]
+      "aliases": ["mathematik", "drei viertel", "drei viertelte", "drei viertelten"]
     },
     {
       "value": "⅓",
       "name": "ein Drittel",
-      "aliases": ["ein drittel", "ein drittelte", "ein drittelten"]
+      "aliases": ["mathematik", "ein drittel", "ein drittelte", "ein drittelten"]
     },
     {
       "value": "⅔",
       "name": "zwei Drittel",
-      "aliases": ["zwei drittel", "zwei drittelte", "zwei drittelten"]
+      "aliases": ["mathematik", "zwei drittel", "zwei drittelte", "zwei drittelten"]
     },
     {
       "value": "⅕",
       "name": "ein Fünftel",
-      "aliases": ["ein fünftel", "ein fünftelte", "ein fünftelten"]
+      "aliases": ["mathematik", "ein fünftel", "ein fünftelte", "ein fünftelten"]
     },
     {
       "value": "⅖",
       "name": "zwei Fünftel",
-      "aliases": ["zwei fünftel", "zwei fünftelte", "zwei fünftelten"]
+      "aliases": ["mathematik", "zwei fünftel", "zwei fünftelte", "zwei fünftelten"]
     },
     {
       "value": "⅗",
       "name": "drei Fünftel",
-      "aliases": ["drei fünftel", "drei fünftelte", "drei fünftelten"]
+      "aliases": ["mathematik", "drei fünftel", "drei fünftelte", "drei fünftelten"]
     },
     {
       "value": "⅘",
       "name": "vier Fünftel",
-      "aliases": ["vier fünftel", "vier fünftelte", "vier fünftelten"]
+      "aliases": ["mathematik", "vier fünftel", "vier fünftelte", "vier fünftelten"]
     },
     {
       "value": "⅙",
       "name": "ein Sechstel",
-      "aliases": ["ein sechstel", "ein sechstelte", "ein sechstelten"]
+      "aliases": ["mathematik", "ein sechstel", "ein sechstelte", "ein sechstelten"]
     },
     {
       "value": "⅚",
       "name": "fünf Sechstel",
-      "aliases": ["fünf sechstel", "fünf sechstelte", "fünf sechstelten"]
+      "aliases": ["mathematik", "fünf sechstel", "fünf sechstelte", "fünf sechstelten"]
     },
     {
       "value": "⅛",
       "name": "ein Achtel",
-      "aliases": ["ein achtel", "ein achtelte", "ein achtelten"]
+      "aliases": ["mathematik", "ein achtel", "ein achtelte", "ein achtelten"]
     },
     {
       "value": "⅜",
       "name": "drei Achtel",
-      "aliases": ["drei achtel", "drei achtelte", "drei achtelten"]
+      "aliases": ["mathematik", "drei achtel", "drei achtelte", "drei achtelten"]
     },
     {
       "value": "⅝",
       "name": "fünf Achtel",
-      "aliases": ["fünf achtel", "fünf achtelte", "fünf achtelten"]
+      "aliases": ["mathematik", "fünf achtel", "fünf achtelte", "fünf achtelten"]
     },
     {
       "value": "⅞",
       "name": "sieben Achtel",
-      "aliases": ["sieben achtel", "sieben achtelte", "sieben achtelten"]
+      "aliases": ["mathematik", "sieben achtel", "sieben achtelte", "sieben achtelten"]
+    }
+    ,
+    {
+      "value": "∀",
+      "name": "Für alle",
+      "aliases": ["mathematik", "für alle", "allquantor", "forall", "quantor"]
+    },
+    {
+      "value": "∁",
+      "name": "Komplement",
+      "aliases": ["mathematik", "komplement", "nicht", "mengenlehre", "complement"]
+    },
+    {
+      "value": "∂",
+      "name": "Partielle Ableitung",
+      "aliases": ["mathematik", "partielle ableitung", "d", "delta", "partial"]
+    },
+    {
+      "value": "∃",
+      "name": "Es existiert",
+      "aliases": ["mathematik", "existiert", "existenzquantor", "existiert ein", "exists", "quantor"]
+    },
+    {
+      "value": "∄",
+      "name": "Es existiert nicht",
+      "aliases": ["mathematik", "existiert nicht", "kein", "existenzquantor", "not exists"]
+    },
+    {
+      "value": "∅",
+      "name": "Leere Menge",
+      "aliases": ["mathematik", "leer", "leere menge", "nullmenge", "empty set"]
+    },
+    {
+      "value": "∇",
+      "name": "Nabla",
+      "aliases": ["mathematik", "nabla", "gradient", "differentialoperator", "del"]
+    },
+    {
+      "value": "∈",
+      "name": "Element von",
+      "aliases": ["mathematik", "element", "in", "mengenlehre", "element of"]
+    },
+    {
+      "value": "∉",
+      "name": "Kein Element von",
+      "aliases": ["mathematik", "kein element", "nicht in", "not element of"]
+    },
+    {
+      "value": "∋",
+      "name": "Enthält als Element",
+      "aliases": ["mathematik", "enthält", "mengenlehre", "contains as member"]
+    },
+    {
+      "value": "∌",
+      "name": "Enthält nicht als Element",
+      "aliases": ["mathematik", "enthält nicht", "nicht enthält", "not contains as member"]
+    },
+    {
+      "value": "∏",
+      "name": "Produktzeichen",
+      "aliases": ["mathematik", "produkt", "pi", "multiplikation", "n-ary product"]
+    },
+    {
+      "value": "∐",
+      "name": "Koproduct",
+      "aliases": ["mathematik", "koprodukt", "summation", "n-ary", "coproduct"]
+    },
+    {
+      "value": "∑",
+      "name": "Summenzeichen",
+      "aliases": ["mathematik", "summe", "sigma", "summation", "n-ary sum"]
+    },
+    {
+      "value": "−",
+      "name": "Minus",
+      "aliases": ["mathematik", "minus", "subtraktion", "negativ", "abziehen"]
+    },
+    {
+      "value": "∓",
+      "name": "Minusplus",
+      "aliases": ["mathematik", "minusplus", "plusminus", "toleranz", "ungefähr"]
+    },
+    {
+      "value": "∔",
+      "name": "Plus mit Punkt",
+      "aliases": ["mathematik", "plus mit punkt", "dot plus", "pluspunkt"]
+    },
+    {
+      "value": "∖",
+      "name": "Mengendifferenz",
+      "aliases": ["mathematik", "mengendifferenz", "set minus", "differenz", "ohne"]
+    },
+    {
+      "value": "∗",
+      "name": "Asterisk-Operator",
+      "aliases": ["mathematik", "asterisk", "multiplikation", "operator", "stern"]
+    },
+    {
+      "value": "∘",
+      "name": "Kreis-Operator",
+      "aliases": ["mathematik", "kreis", "funktion", "komposition", "circle"]
+    },
+    {
+      "value": "∙",
+      "name": "Mittlerer Punkt",
+      "aliases": ["mathematik", "punkt", "mittelpunkt", "multiplikation", "dot"]
+    },
+    {
+      "value": "√",
+      "name": "Wurzelzeichen",
+      "aliases": ["mathematik", "wurzel", "quadratwurzel", "square root"]
+    },
+    {
+      "value": "∛",
+      "name": "Kubikwurzel",
+      "aliases": ["mathematik", "kubikwurzel", "dritte wurzel", "cubic root"]
+    },
+    {
+      "value": "∜",
+      "name": "Vierte Wurzel",
+      "aliases": ["mathematik", "vierte wurzel", "quartic root"]
+    },
+    {
+      "value": "∝",
+      "name": "Proportional",
+      "aliases": ["mathematik", "proportional", "verhältnis", "proportional to"]
+    },
+    {
+      "value": "∞",
+      "name": "Unendlichzeichen",
+      "aliases": ["mathematik", "unendlich", "grenzwert", "infinity"]
+    },
+    {
+      "value": "∟",
+      "name": "Rechter Winkel",
+      "aliases": ["mathematik", "rechter winkel", "winkel", "right angle"]
+    },
+    {
+      "value": "∠",
+      "name": "Winkel",
+      "aliases": ["mathematik", "winkel", "angle"]
+    },
+    {
+      "value": "∡",
+      "name": "Winkel mit Bogen",
+      "aliases": ["mathematik", "winkel", "bogen", "angle with arc"]
+    },
+    {
+      "value": "∢",
+      "name": "Dreifachwinkel",
+      "aliases": ["mathematik", "dreifachwinkel", "measured angle"]
+    },
+    {
+      "value": "∣",
+      "name": "Teiler von",
+      "aliases": ["mathematik", "teilt", "teiler", "divides", "vertikalstrich"]
+    },
+    {
+      "value": "∤",
+      "name": "Teilt nicht",
+      "aliases": ["mathematik", "teilt nicht", "not divides"]
+    },
+    {
+      "value": "∥",
+      "name": "Parallel",
+      "aliases": ["mathematik", "parallel", "parallelität"]
+    },
+    {
+      "value": "∦",
+      "name": "Nicht parallel",
+      "aliases": ["mathematik", "nicht parallel", "not parallel"]
+    },
+    {
+      "value": "∧",
+      "name": "Und (logisch)",
+      "aliases": ["mathematik", "und", "logik", "and"]
+    },
+    {
+      "value": "∨",
+      "name": "Oder (logisch)",
+      "aliases": ["mathematik", "oder", "logik", "or"]
+    },
+    {
+      "value": "∩",
+      "name": "Durchschnitt",
+      "aliases": ["mathematik", "durchschnitt", "schnittmenge", "intersection"]
+    },
+    {
+      "value": "∪",
+      "name": "Vereinigung",
+      "aliases": ["mathematik", "vereinigung", "vereinigungsmenge", "union"]
+    },
+    {
+      "value": "∫",
+      "name": "Integralzeichen",
+      "aliases": ["mathematik", "integral", "flächensumme", "fläche", "integral sign"]
+    },
+    {
+      "value": "∬",
+      "name": "Doppelintegral",
+      "aliases": ["mathematik", "doppelintegral", "zweifachintegral", "double integral"]
+    },
+    {
+      "value": "∭",
+      "name": "Dreifachintegral",
+      "aliases": ["mathematik", "dreifachintegral", "dreifach integral", "triple integral"]
+    },
+    {
+      "value": "∮",
+      "name": "Kurvenintegral",
+      "aliases": ["mathematik", "integral", "kurve", "fläche", "kontur", "konturenintegral", "contour integral"]
+    },
+    {
+      "value": "∯",
+      "name": "Flächenintegral",
+      "aliases": ["mathematik", "flächenintegral", "surface integral"]
+    },
+    {
+      "value": "∰",
+      "name": "Volumenintegral",
+      "aliases": ["mathematik", "volumenintegral", "volume integral"]
+    },
+    {
+      "value": "∱",
+      "name": "Integral mit Bogen",
+      "aliases": ["mathematik", "integral", "bogen", "integral with arc"]
+    },
+    {
+      "value": "∲",
+      "name": "Integral mit doppeltem Bogen",
+      "aliases": ["mathematik", "integral", "doppelbogen", "integral with double arc"]
+    },
+    {
+      "value": "∳",
+      "name": "Integral mit Strich",
+      "aliases": ["mathematik", "integral", "strich", "integral with dash"]
+    },
+    {
+      "value": "∴",
+      "name": "Daher",
+      "aliases": ["mathematik", "schluss", "folgerung", "daher", "therefore"]
+    },
+    {
+      "value": "∵",
+      "name": "Weil",
+      "aliases": ["mathematik", "weil", "begründung", "because"]
+    },
+    {
+      "value": "∶",
+      "name": "Verhältniszeichen",
+      "aliases": ["mathematik", "verhältnis", "ratio", "doppelpunkt"]
+    },
+    {
+      "value": "∷",
+      "name": "Proportionalitätszeichen",
+      "aliases": ["mathematik", "proportionalität", "proportion", "gleiches verhältnis"]
+    },
+    {
+      "value": "∸",
+      "name": "Minus mit Punkt",
+      "aliases": ["mathematik", "minuspunkt", "dot minus", "minus mit punkt"]
+    },
+    {
+      "value": "∹",
+      "name": "Division mit Bogen",
+      "aliases": ["mathematik", "division", "bogen", "excess"]
+    },
+    {
+      "value": "∺",
+      "name": "Geometrische Differenz",
+      "aliases": ["mathematik", "geometrische differenz", "geometric difference"]
+    },
+    {
+      "value": "∻",
+      "name": "Homothetisch",
+      "aliases": ["mathematik", "homothetisch", "homothetic"]
+    },
+    {
+      "value": "∼",
+      "name": "Tilde",
+      "aliases": ["mathematik", "tilde", "ähnlich", "similar", "proportional"]
+    },
+    {
+      "value": "∽",
+      "name": "Umgekehrte Tilde",
+      "aliases": ["mathematik", "umgekehrte tilde", "reversed tilde", "ähnlich"]
+    },
+    {
+      "value": "∾",
+      "name": "Tilde mit Pfeil",
+      "aliases": ["mathematik", "tilde", "pfeil", "sine wave"]
+    },
+    {
+      "value": "∿",
+      "name": "Doppelte Tilde mit Pfeil",
+      "aliases": ["mathematik", "tilde", "pfeil", "doppelt", "reversed sine wave"]
+    },
+    {
+      "value": "≀",
+      "name": "Krone",
+      "aliases": ["mathematik", "krone", "wreath product"]
+    },
+    {
+      "value": "≁",
+      "name": "Nicht ähnlich",
+      "aliases": ["mathematik", "nicht ähnlich", "not similar"]
+    },
+    {
+      "value": "≂",
+      "name": "Tilde mit Punkt",
+      "aliases": ["mathematik", "tilde", "punkt", "minus tilden"]
+    },
+    {
+      "value": "≃",
+      "name": "Tilde mit Gleich",
+      "aliases": ["mathematik", "ungefähr gleich", "tilde gleich"]
+    },
+    {
+      "value": "≄",
+      "name": "Nicht tilde gleich",
+      "aliases": ["mathematik", "nicht ungefähr gleich", "not tilde equals"]
+    },
+    {
+      "value": "≅",
+      "name": "Kongruent",
+      "aliases": ["mathematik", "kongruent", "entspricht", "geometrie", "congruent"]
+    },
+    {
+      "value": "≆",
+      "name": "Ungefähr identisch",
+      "aliases": ["mathematik", "ungefähr identisch", "approximately identical"]
+    },
+    {
+      "value": "≇",
+      "name": "Nicht kongruent",
+      "aliases": ["mathematik", "nicht kongruent", "not congruent"]
+    },
+    {
+      "value": "≈",
+      "name": "Ungefähr gleich",
+      "aliases": ["mathematik", "ungefähr", "etwa", "approximativ", "approximately equal"]
+    },
+    {
+      "value": "≉",
+      "name": "Nicht ungefähr gleich",
+      "aliases": ["mathematik", "nicht ungefähr gleich", "not approximately equal"]
+    },
+    {
+      "value": "≊",
+      "name": "Gleich mit Punkt",
+      "aliases": ["mathematik", "gleich mit punkt", "equal with dot"]
+    },
+    {
+      "value": "≋",
+      "name": "Dreifach gleich",
+      "aliases": ["mathematik", "dreifach gleich", "triple equals"]
+    },
+    {
+      "value": "≌",
+      "name": "Alle gleich",
+      "aliases": ["mathematik", "alle gleich", "all equal"]
+    },
+    {
+      "value": "≍",
+      "name": "Gleich oder äquivalent",
+      "aliases": ["mathematik", "gleich", "äquivalent", "equivalent"]
+    },
+    {
+      "value": "≎",
+      "name": "Gleich mit Stern",
+      "aliases": ["mathematik", "gleich mit stern", "equal with asterisk"]
+    },
+    {
+      "value": "≏",
+      "name": "Fast gleich",
+      "aliases": ["mathematik", "fast gleich", "corresponds to"]
+    },
+    {
+      "value": "≐",
+      "name": "Ring gleich",
+      "aliases": ["mathematik", "ring gleich", "circle equals"]
+    },
+    {
+      "value": "≑",
+      "name": "Geometrisch gleich",
+      "aliases": ["mathematik", "geometrisch gleich", "geometrically equal"]
+    },
+    {
+      "value": "≒",
+      "name": "Annähernd gleich",
+      "aliases": ["mathematik", "annähernd gleich", "approaches"]
+    },
+    {
+      "value": "≓",
+      "name": "Gleich mit Frage",
+      "aliases": ["mathematik", "gleich", "frage", "unsicher", "questioned equal"]
+    },
+    {
+      "value": "≔",
+      "name": "Definiert als",
+      "aliases": ["mathematik", "definiert als", "ist definiert als", "colon equals"]
+    },
+    {
+      "value": "≕",
+      "name": "Gleich mit Doppelpunkt",
+      "aliases": ["mathematik", "gleich", "doppelpunkt", "equals colon"]
+    },
+    {
+      "value": "≖",
+      "name": "Ring gleich mit Punkt",
+      "aliases": ["mathematik", "ring gleich", "punkt", "circle equals with dot"]
+    },
+    {
+      "value": "≗",
+      "name": "Ring gleich mit Plus",
+      "aliases": ["mathematik", "ring gleich", "plus", "circle equals with plus"]
+    },
+    {
+      "value": "≘",
+      "name": "Gleich mit Pfeil nach rechts",
+      "aliases": ["mathematik", "gleich", "pfeil", "gleich pfeil rechts"]
+    },
+    {
+      "value": "≙",
+      "name": "Entspricht",
+      "aliases": ["mathematik", "entspricht", "corresponds to"]
+    },
+    {
+      "value": "≚",
+      "name": "Gleich mit Stern oben",
+      "aliases": ["mathematik", "gleich", "stern", "oben", "equals with star"]
+    },
+    {
+      "value": "≛",
+      "name": "Stern gleich",
+      "aliases": ["mathematik", "stern gleich", "star equals"]
+    },
+    {
+      "value": "≜",
+      "name": "Definiert als (gleich)",
+      "aliases": ["mathematik", "definiert als", "gleich", "triangle equals"]
+    },
+    {
+      "value": "≝",
+      "name": "Definiert als (doppelpunkt)",
+      "aliases": ["mathematik", "definiert als", "doppelpunkt", "equal by definition"]
+    },
+    {
+      "value": "≞",
+      "name": "Gleich mit Fragezeichen",
+      "aliases": ["mathematik", "gleich", "fragezeichen", "equal with question"]
+    },
+    {
+      "value": "≟",
+      "name": "Gleichheitszeichen mit Frage",
+      "aliases": ["mathematik", "gleich", "frage", "unsicher", "equality with question"]
+    },
+    {
+      "value": "≠",
+      "name": "Ungleich",
+      "aliases": ["mathematik", "ungleich", "nicht gleich", "not equal"]
+    },
+    {
+      "value": "≡",
+      "name": "Identisch",
+      "aliases": ["mathematik", "identisch", "drei gleich", "logik", "identisch gleich"]
+    },
+    {
+      "value": "≤",
+      "name": "Kleiner gleich",
+      "aliases": ["mathematik", "kleiner gleich", "weniger gleich", "less or equal"]
+    },
+    {
+      "value": "≥",
+      "name": "Größer gleich",
+      "aliases": ["mathematik", "größer gleich", "mehr gleich", "greater or equal"]
+    },
+    {
+      "value": "≦",
+      "name": "Kleiner gleich (schmal)",
+      "aliases": ["mathematik", "kleiner gleich", "schmal", "less than over equal"]
+    },
+    {
+      "value": "≧",
+      "name": "Größer gleich (schmal)",
+      "aliases": ["mathematik", "größer gleich", "schmal", "greater than over equal"]
+    },
+    {
+      "value": "≨",
+      "name": "Kleiner als, aber nicht gleich",
+      "aliases": ["mathematik", "kleiner als nicht gleich", "less but not equal"]
+    },
+    {
+      "value": "≩",
+      "name": "Größer als, aber nicht gleich",
+      "aliases": ["mathematik", "größer als nicht gleich", "greater but not equal"]
+    },
+    {
+      "value": "≪",
+      "name": "Viel kleiner als",
+      "aliases": ["mathematik", "viel kleiner", "much less than"]
+    },
+    {
+      "value": "≫",
+      "name": "Viel größer als",
+      "aliases": ["mathematik", "viel größer", "much greater than"]
+    },
+    {
+      "value": "≬",
+      "name": "Zwischen",
+      "aliases": ["mathematik", "zwischen", "between"]
+    },
+    {
+      "value": "≭",
+      "name": "Nicht äquivalent",
+      "aliases": ["mathematik", "nicht äquivalent", "not equivalent"]
+    },
+    {
+      "value": "≮",
+      "name": "Nicht kleiner als",
+      "aliases": ["mathematik", "nicht kleiner als", "not less than"]
+    },
+    {
+      "value": "≯",
+      "name": "Nicht größer als",
+      "aliases": ["mathematik", "nicht größer als", "not greater than"]
+    },
+    {
+      "value": "⊂",
+      "name": "Teilmenge",
+      "aliases": ["mathematik", "teilmenge", "subset"]
+    },
+    {
+      "value": "⊃",
+      "name": "Obermenge",
+      "aliases": ["mathematik", "obermenge", "superset"]
+    },
+    {
+      "value": "⊄",
+      "name": "Keine Teilmenge",
+      "aliases": ["mathematik", "keine teilmenge", "not subset"]
+    },
+    {
+      "value": "⊅",
+      "name": "Keine Obermenge",
+      "aliases": ["mathematik", "keine obermenge", "not superset"]
+    },
+    {
+      "value": "⊆",
+      "name": "Teilmenge oder gleich",
+      "aliases": ["mathematik", "teilmenge gleich", "subset or equal"]
+    },
+    {
+      "value": "⊇",
+      "name": "Obermenge oder gleich",
+      "aliases": ["mathematik", "obermenge gleich", "superset or equal"]
+    },
+    {
+      "value": "⊈",
+      "name": "Keine Teilmenge oder gleich",
+      "aliases": ["mathematik", "keine teilmenge gleich", "not subset or equal"]
+    },
+    {
+      "value": "⊉",
+      "name": "Keine Obermenge oder gleich",
+      "aliases": ["mathematik", "keine obermenge gleich", "not superset or equal"]
+    },
+    {
+      "value": "⊊",
+      "name": "Echte Teilmenge",
+      "aliases": ["mathematik", "echte teilmenge", "proper subset"]
+    },
+    {
+      "value": "⊋",
+      "name": "Echte Obermenge",
+      "aliases": ["mathematik", "echte obermenge", "proper superset"]
+    },
+    {
+      "value": "⊎",
+      "name": "Disjunkte Vereinigung",
+      "aliases": ["mathematik", "disjunkt", "vereinigung", "disjoint union"]
+    },
+    {
+      "value": "⊏",
+      "name": "Quadratische Teilmenge",
+      "aliases": ["mathematik", "quadratische teilmenge", "square subset"]
+    },
+    {
+      "value": "⊐",
+      "name": "Quadratische Obermenge",
+      "aliases": ["mathematik", "quadratische obermenge", "square superset"]
+    },
+    {
+      "value": "⊑",
+      "name": "Quadratische Teilmenge gleich",
+      "aliases": ["mathematik", "quadratische teilmenge gleich", "square subset equal"]
+    },
+    {
+      "value": "⊒",
+      "name": "Quadratische Obermenge gleich",
+      "aliases": ["mathematik", "quadratische obermenge gleich", "square superset equal"]
+    },
+    {
+      "value": "⊓",
+      "name": "Quadratische Durchschnitt",
+      "aliases": ["mathematik", "schnitt", "schnittmenge", "square intersection"]
+    },
+    {
+      "value": "⊔",
+      "name": "Quadratische Vereinigung",
+      "aliases": ["mathematik", "vereinigung", "square union"]
+    },
+    {
+      "value": "⊕",
+      "name": "Kreis mit Plus",
+      "aliases": ["mathematik", "xor", "direkt", "summe", "plus", "direct sum", "circle plus"]
+    },
+    {
+      "value": "⊖",
+      "name": "Kreis mit Minus",
+      "aliases": ["mathematik", "kreis mit minus", "circle minus"]
+    },
+    {
+      "value": "⊗",
+      "name": "Kreis mit Mal",
+      "aliases": ["mathematik", "tensorprodukt", "kreis mit mal", "tensor product", "circle times"]
+    },
+    {
+      "value": "⊘",
+      "name": "Kreis mit Division",
+      "aliases": ["mathematik", "kreis mit division", "circle division"]
+    },
+    {
+      "value": "⊙",
+      "name": "Kreis mit Punkt",
+      "aliases": ["mathematik", "kreis mit punkt", "circle dot"]
+    },
+    {
+      "value": "⊚",
+      "name": "Kreis mit Stern",
+      "aliases": ["mathematik", "kreis mit stern", "circle asterisk"]
+    },
+    {
+      "value": "⊛",
+      "name": "Kreis mit Ring",
+      "aliases": ["mathematik", "kreis mit ring", "circle ring"]
+    },
+    {
+      "value": "⊜",
+      "name": "Kreis gleich",
+      "aliases": ["mathematik", "kreis gleich", "circle equals"]
+    },
+    {
+      "value": "⊝",
+      "name": "Kreis mit Minuspunkt",
+      "aliases": ["mathematik", "kreis mit minuspunkt", "circled dash"]
+    },
+    {
+      "value": "⊞",
+      "name": "Quadrat mit Plus",
+      "aliases": ["mathematik", "quadrat mit plus", "box plus"]
+    },
+    {
+      "value": "⊟",
+      "name": "Quadrat mit Minus",
+      "aliases": ["mathematik", "quadrat mit minus", "box minus"]
+    },
+    {
+      "value": "⊠",
+      "name": "Quadrat mit Mal",
+      "aliases": ["mathematik", "quadrat mit mal", "box times"]
+    },
+    {
+      "value": "⊡",
+      "name": "Quadrat mit Punkt",
+      "aliases": ["mathematik", "quadrat mit punkt", "box dot"]
+    },
+    {
+      "value": "⊢",
+      "name": "Ableitbar",
+      "aliases": ["mathematik", "ableitbar", "turnstile", "folgerung"]
+    },
+    {
+      "value": "⊣",
+      "name": "Reverse Turnstile",
+      "aliases": ["mathematik", "reverse turnstile", "umgekehrte ableitung"]
+    },
+    {
+      "value": "⊤",
+      "name": "Wahr",
+      "aliases": ["mathematik", "wahr", "top", "true"]
+    },
+    {
+      "value": "⊥",
+      "name": "Falsch",
+      "aliases": ["mathematik", "falsch", "bottom", "false", "orthogonal", "senkrecht"]
+    },
+    {
+      "value": "⊦",
+      "name": "Ableitbar (doppelstrich)",
+      "aliases": ["mathematik", "ableitbar", "double turnstile"]
+    },
+    {
+      "value": "⊧",
+      "name": "Erfüllbar",
+      "aliases": ["mathematik", "erfüllbar", "models"]
+    },
+    {
+      "value": "⊨",
+      "name": "Erfüllbar (doppelt)",
+      "aliases": ["mathematik", "erfüllbar", "double models"]
+    },
+    {
+      "value": "⊩",
+      "name": "Forcingsymbol",
+      "aliases": ["mathematik", "forcingsymbol", "forcing"]
+    },
+    {
+      "value": "⊪",
+      "name": "Triple Turnstile",
+      "aliases": ["mathematik", "triple turnstile"]
+    },
+    {
+      "value": "⊫",
+      "name": "Negated Double Turnstile",
+      "aliases": ["mathematik", "negated double turnstile"]
+    },
+    {
+      "value": "⊬",
+      "name": "Nicht ableitbar",
+      "aliases": ["mathematik", "nicht ableitbar", "not turnstile"]
+    },
+    {
+      "value": "⊭",
+      "name": "Nicht erfüllbar",
+      "aliases": ["mathematik", "nicht erfüllbar", "not models"]
+    },
+    {
+      "value": "⊮",
+      "name": "Nicht erfüllbar (doppelt)",
+      "aliases": ["mathematik", "nicht erfüllbar doppelt", "not double models"]
+    },
+    {
+      "value": "⊯",
+      "name": "Nicht ableitbar (doppelt)",
+      "aliases": ["mathematik", "nicht ableitbar doppelt", "not double turnstile"]
+    },
+    {
+      "value": "⊰",
+      "name": "Precedes under relation",
+      "aliases": ["mathematik", "precedes under relation"]
+    },
+    {
+      "value": "⊱",
+      "name": "Succeeds under relation",
+      "aliases": ["mathematik", "succeeds under relation"]
+    },
+    {
+      "value": "⊲",
+      "name": "Normalteiler",
+      "aliases": ["mathematik", "normalteiler", "normal subgroup", "triangle left"]
+    },
+    {
+      "value": "⊳",
+      "name": "Normalteiler rechts",
+      "aliases": ["mathematik", "normalteiler rechts", "normal subgroup right", "triangle right"]
+    },
+    {
+      "value": "⊴",
+      "name": "Normalteiler gleich",
+      "aliases": ["mathematik", "normalteiler gleich", "triangle left equal"]
+    },
+    {
+      "value": "⊵",
+      "name": "Normalteiler rechts gleich",
+      "aliases": ["mathematik", "normalteiler rechts gleich", "triangle right equal"]
+    },
+    {
+      "value": "⊶",
+      "name": "Original of",
+      "aliases": ["mathematik", "original of"]
+    },
+    {
+      "value": "⊷",
+      "name": "Image of",
+      "aliases": ["mathematik", "image of"]
+    },
+    {
+      "value": "⊸",
+      "name": "Multimap",
+      "aliases": ["mathematik", "multimap"]
+    },
+    {
+      "value": "⊹",
+      "name": "Hermitian conjugate",
+      "aliases": ["mathematik", "hermitian conjugate"]
+    },
+    {
+      "value": "⊺",
+      "name": "Transpose",
+      "aliases": ["mathematik", "transponiert", "transpose"]
+    },
+    {
+      "value": "⊻",
+      "name": "XOR",
+      "aliases": ["mathematik", "xor", "exklusiv oder", "exclusive or"]
+    },
+    {
+      "value": "⊼",
+      "name": "NAND",
+      "aliases": ["mathematik", "nand", "not and"]
+    },
+    {
+      "value": "⊽",
+      "name": "NOR",
+      "aliases": ["mathematik", "nor", "not or"]
+    },
+    {
+      "value": "⊾",
+      "name": "Right angle with arc",
+      "aliases": ["mathematik", "rechter winkel mit bogen", "right angle with arc"]
+    },
+    {
+      "value": "⊿",
+      "name": "Dreieck",
+      "aliases": ["mathematik", "dreieck", "triangle"]
+    },
+    {
+      "value": "⋀",
+      "name": "N-fache Konjunktion",
+      "aliases": ["mathematik", "n-fach und", "n-ary and"]
+    },
+    {
+      "value": "⋁",
+      "name": "N-fache Disjunktion",
+      "aliases": ["mathematik", "n-fach oder", "n-ary or"]
+    },
+    {
+      "value": "⋂",
+      "name": "N-facher Durchschnitt",
+      "aliases": ["mathematik", "n-fach durchschnitt", "n-ary intersection"]
+    },
+    {
+      "value": "⋃",
+      "name": "N-fache Vereinigung",
+      "aliases": ["mathematik", "n-fach vereinigung", "n-ary union"]
+    },
+    {
+      "value": "⋄",
+      "name": "Rhombus-Operator",
+      "aliases": ["mathematik", "rhombus", "diamond", "operator"]
+    },
+    {
+      "value": "⋅",
+      "name": "Malpunkt",
+      "aliases": ["mathematik", "malpunkt", "dot", "multiplikation"]
+    },
+    {
+      "value": "⋆",
+      "name": "Stern-Operator",
+      "aliases": ["mathematik", "stern", "star", "operator"]
+    },
+    {
+      "value": "⋇",
+      "name": "Division times",
+      "aliases": ["mathematik", "division times"]
+    },
+    {
+      "value": "⋈",
+      "name": "Bowtie",
+      "aliases": ["mathematik", "join", "relation", "verknüpfung", "bowtie"]
+    },
+    {
+      "value": "⋉",
+      "name": "Left normal join",
+      "aliases": ["mathematik", "left normal join"]
+    },
+    {
+      "value": "⋊",
+      "name": "Right normal join",
+      "aliases": ["mathematik", "right normal join"]
+    },
+    {
+      "value": "⋋",
+      "name": "Left semidirect product",
+      "aliases": ["mathematik", "left semidirect product"]
+    },
+    {
+      "value": "⋌",
+      "name": "Right semidirect product",
+      "aliases": ["mathematik", "right semidirect product"]
+    },
+    {
+      "value": "⋍",
+      "name": "Gleich mit Tilde",
+      "aliases": ["mathematik", "gleich mit tilde", "equals tilde"]
+    },
+    {
+      "value": "⋎",
+      "name": "N-ary logical or",
+      "aliases": ["mathematik", "n-ary logical or"]
+    },
+    {
+      "value": "⋏",
+      "name": "N-ary logical and",
+      "aliases": ["mathematik", "n-ary logical and"]
+    },
+    {
+      "value": "⋐",
+      "name": "Double subset",
+      "aliases": ["mathematik", "double subset"]
+    },
+    {
+      "value": "⋑",
+      "name": "Double superset",
+      "aliases": ["mathematik", "double superset"]
+    },
+    {
+      "value": "⋒",
+      "name": "Double intersection",
+      "aliases": ["mathematik", "double intersection"]
+    },
+    {
+      "value": "⋓",
+      "name": "Double union",
+      "aliases": ["mathematik", "double union"]
+    },
+    {
+      "value": "⋔",
+      "name": "Pitchfork",
+      "aliases": ["mathematik", "pitchfork"]
+    },
+    {
+      "value": "⋕",
+      "name": "Equal and parallel",
+      "aliases": ["mathematik", "equal and parallel"]
+    },
+    {
+      "value": "⋖",
+      "name": "Less than with dot",
+      "aliases": ["mathematik", "less than with dot"]
+    },
+    {
+      "value": "⋗",
+      "name": "Greater than with dot",
+      "aliases": ["mathematik", "greater than with dot"]
+    },
+    {
+      "value": "⋘",
+      "name": "Very much less than",
+      "aliases": ["mathematik", "very much less than"]
+    },
+    {
+      "value": "⋙",
+      "name": "Very much greater than",
+      "aliases": ["mathematik", "very much greater than"]
+    },
+    {
+      "value": "⋚",
+      "name": "Equals or less than",
+      "aliases": ["mathematik", "equals or less than"]
+    },
+    {
+      "value": "⋛",
+      "name": "Equals or greater than",
+      "aliases": ["mathematik", "equals or greater than"]
+    },
+    {
+      "value": "⋜",
+      "name": "Equal with less than",
+      "aliases": ["mathematik", "equal with less than"]
+    },
+    {
+      "value": "⋝",
+      "name": "Equal with greater than",
+      "aliases": ["mathematik", "equal with greater than"]
+    },
+    {
+      "value": "⋞",
+      "name": "Equal with less than and dot",
+      "aliases": ["mathematik", "equal with less than and dot"]
+    },
+    {
+      "value": "⋟",
+      "name": "Equal with greater than and dot",
+      "aliases": ["mathematik", "equal with greater than and dot"]
+    },
+    {
+      "value": "⋠",
+      "name": "Not equal with less than",
+      "aliases": ["mathematik", "not equal with less than"]
+    },
+    {
+      "value": "⋡",
+      "name": "Not equal with greater than",
+      "aliases": ["mathematik", "not equal with greater than"]
+    },
+    {
+      "value": "⋢",
+      "name": "Double subset with dot",
+      "aliases": ["mathematik", "double subset with dot"]
+    },
+    {
+      "value": "⋣",
+      "name": "Double superset with dot",
+      "aliases": ["mathematik", "double superset with dot"]
+    },
+    {
+      "value": "⋤",
+      "name": "Subset with dot",
+      "aliases": ["mathematik", "subset with dot"]
+    },
+    {
+      "value": "⋥",
+      "name": "Superset with dot",
+      "aliases": ["mathematik", "superset with dot"]
+    },
+    {
+      "value": "⋦",
+      "name": "Left outer join",
+      "aliases": ["mathematik", "left outer join"]
+    },
+    {
+      "value": "⋧",
+      "name": "Right outer join",
+      "aliases": ["mathematik", "right outer join"]
+    },
+    {
+      "value": "⋨",
+      "name": "Full outer join",
+      "aliases": ["mathematik", "full outer join"]
+    },
+    {
+      "value": "⋩",
+      "name": "Double left join",
+      "aliases": ["mathematik", "double left join"]
+    },
+    {
+      "value": "⋪",
+      "name": "Double right join",
+      "aliases": ["mathematik", "double right join"]
+    },
+    {
+      "value": "⋫",
+      "name": "Double full join",
+      "aliases": ["mathematik", "double full join"]
+    },
+    {
+      "value": "⋬",
+      "name": "Left semijoin",
+      "aliases": ["mathematik", "left semijoin"]
+    },
+    {
+      "value": "⋭",
+      "name": "Right semijoin",
+      "aliases": ["mathematik", "right semijoin"]
+    },
+    {
+      "value": "⋮",
+      "name": "Vertikale Auslassung",
+      "aliases": ["mathematik", "auslassung", "punkte", "vertical ellipsis"]
+    },
+    {
+      "value": "⋯",
+      "name": "Horizontale Auslassung",
+      "aliases": ["mathematik", "auslassung", "punkte", "ellipsis", "horizontal ellipsis"]
+    },
+    {
+      "value": "⋰",
+      "name": "Oben links nach unten rechts Auslassung",
+      "aliases": ["mathematik", "auslassung", "punkte", "diagonal ellipsis"]
+    },
+    {
+      "value": "⋱",
+      "name": "Oben rechts nach unten links Auslassung",
+      "aliases": ["mathematik", "auslassung", "punkte", "diagonal ellipsis"]
     }
   ]
 }

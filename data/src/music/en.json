@@ -34,6 +34,16 @@
       "value": "♯",
       "name": "Sharp",
       "aliases": ["music", "sharp", "music", "sharp", "sharps"]
+    },
+    {
+      "value": "𝄞",
+      "name": "Violin Key",
+      "aliases": ["music", "violin key", "violin", "violin keys"]
+    },
+    {
+      "value": "𝄢",
+      "name": "Bass Key",
+      "aliases": ["music", "bass key", "bass", "bass keys"]
     }
   ]
 }
