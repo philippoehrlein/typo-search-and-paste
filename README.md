@@ -104,7 +104,3 @@ Note: `--include` and `--exclude` cannot be used simultaneously. If both are pro
 ## License
 
 MIT License
-
-## Credits
-
-This plugin is developed as a companion to [Typo & Paste](https://github.com/philippoehrlein/typo-and-paste)
