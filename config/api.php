@@ -8,7 +8,7 @@ return [
         'method' => 'GET',
         'action' => function ($query) use ($kirby) {
         // Panel-Sprache abrufen
-        $lang = $kirby->language()->code();
+        $lang = $kirby->user()->language() ?? 'en';
         $query = urldecode($query);
 
         $words = preg_split('/\s+/', $query);

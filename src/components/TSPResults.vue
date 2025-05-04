@@ -15,7 +15,7 @@
     </k-button>
   </div>
   <div v-else class="tsp-results__no-results">
-    <p>No results found</p>
+    <p>{{ panel.t("philippoehrlein.typo-search-and-paste.noResults") }}</p>
   </div>
   </div>
 </template>

@@ -1,6 +1,8 @@
-# Typo Search & Paste
+# Typo, Search & Paste
 
 A Kirby plugin that provides a searchable interface for special characters, built on top of [Typo & Paste](https://github.com/philippoehrlein/typo-and-paste).
+
+![Cover Typo, Search & Paste](.github/typo-search-and-paste-cover.png)
 
 ## Features
 
