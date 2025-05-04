@@ -1,22 +1,22 @@
 <template>
   <div v-if="queryLength > 2" class="tsp-results-container">
     <div v-if="results.length > 0" class="tsp-results">
-    <k-button 
-    v-for="result in results" 
-    :key="result.value" 
-    class="tsp-results__result"
-    tabindex="0"
-    role="menuitem"
-    :title="result.name"
-    @click="copyToClipboard(result.value)"
-    >
-      <span class="tsp-results__result-value">{{ result.value }}</span>
-      <span class="tsp-results__result-name">{{ result.name }}</span>
-    </k-button>
-  </div>
-  <div v-else class="tsp-results__no-results">
-    <p>{{ panel.t("philippoehrlein.typo-search-and-paste.noResults") }}</p>
-  </div>
+      <k-button
+        v-for="result in results"
+        :key="result.value"
+        class="tsp-results__result"
+        tabindex="0"
+        role="menuitem"
+        :title="result.name"
+        @click="copyToClipboard(result.value)"
+      >
+        <span class="tsp-results__result-value">{{ result.value }}</span>
+        <span class="tsp-results__result-name">{{ result.name }}</span>
+      </k-button>
+    </div>
+    <div v-else class="tsp-results__no-results">
+      <p>{{ panel.t("philippoehrlein.typo-search-and-paste.noResults") }}</p>
+    </div>
   </div>
 </template>
 
@@ -26,19 +26,16 @@ import { usePanel } from "kirbyuse";
 defineProps({
   results: {
     type: Array,
-    required: true
+    required: true,
   },
   queryLength: {
     type: Number,
-    required: true
-  }
-})
-const emit = defineEmits(['close']);
+    required: true,
+  },
+});
+const emit = defineEmits(["close"]);
 
 const panel = usePanel();
-
-
-
 
 function copyToClipboard(character) {
   navigator.clipboard.writeText(character);
@@ -56,7 +53,7 @@ function copyToClipboard(character) {
 
 <style scoped>
 .tsp-results-container {
-  display:block;
+  display: block;
   height: 100%;
   width: 100%;
   max-height: 50vh;
@@ -101,7 +98,6 @@ function copyToClipboard(character) {
   align-items: center;
   justify-content: center;
   width: 32px;
-
 }
 
 .tsp-results__result-name {
@@ -111,5 +107,4 @@ function copyToClipboard(character) {
   white-space: nowrap;
   text-align: left;
 }
-
 </style>

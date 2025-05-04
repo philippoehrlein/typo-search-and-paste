@@ -17,8 +17,16 @@
         )
       }}
     </h2>
-    <TSPSearch @result="handleResults" @length="handleLength" @close="handleClose" />
-    <TSPResults :results="results" :query-length="queryLength" @close="handleClose" />
+    <TSPSearch
+      @result="handleResults"
+      @length="handleLength"
+      @close="handleClose"
+    />
+    <TSPResults
+      :results="results"
+      :query-length="queryLength"
+      @close="handleClose"
+    />
   </k-dialog>
 </template>
 
@@ -28,7 +36,7 @@ import { defineEmits, ref } from "vue";
 import TSPResults from "./TSPResults.vue";
 import TSPSearch from "./TSPSearch.vue";
 
-const emit = defineEmits(['close']);
+const emit = defineEmits(["close"]);
 
 const panel = usePanel();
 
@@ -37,19 +45,18 @@ const queryLength = ref(0);
 
 const handleResults = (newResults) => {
   results.value = newResults;
-}
+};
 
 const handleLength = (newLength) => {
   queryLength.value = newLength;
-}
+};
 
 const handleClose = () => {
-  emit('close');
-}
+  emit("close");
+};
 </script>
 
 <style>
-
 TSPSearch {
   margin-bottom: var(--spacing-3);
 }
