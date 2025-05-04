@@ -1,0 +1,109 @@
+{
+  "characters": [
+    {
+      "value": "→",
+      "name": "Right arrow",
+      "aliases": ["right", "arrow", "to right"]
+    },
+    {
+      "value": "←",
+      "name": "Left arrow",
+      "aliases": ["left", "arrow", "to left"]
+    },
+    {
+      "value": "↑",
+      "name": "Up arrow",
+      "aliases": ["up", "arrow", "to up"]
+    },
+    {
+      "value": "↓",
+      "name": "Down arrow",
+      "aliases": ["down", "arrow", "to down"]
+    },
+    {
+      "value": "↗",
+      "name": "Up-right arrow",
+      "aliases": ["up right", "arrow", "up and right"]
+    },
+    {
+      "value": "↘",
+      "name": "Down-right arrow",
+      "aliases": ["down right", "arrow",  "down and right"]
+    },
+    {
+      "value": "↙",
+      "name": "Down-left arrow",
+      "aliases": ["down left", "arrow", "down and left"]
+    },
+    {
+      "value": "↖",
+      "name": "Up-left arrow",
+      "aliases": ["up left", "arrow", "up and left"]
+    },
+    {
+      "value": "↔",
+      "name": "Left-right arrow",
+      "aliases": ["left right", "arrow", "bidirectional"]
+    },
+    {
+      "value": "↕",
+      "name": "Up-down arrow",
+      "aliases": ["up down", "arrow", "bidirectional"]
+    },
+    {
+      "value": "⇨",
+      "name": "Right-pointing double arrow",
+      "aliases": ["right", "double arrow", "arrow"]
+    },
+    {
+      "value": "⇦",
+      "name": "Left-pointing double arrow",
+      "aliases": ["left", "double arrow", "arrow"]
+    },
+    {
+      "value": "⇧",
+      "name": "Up-pointing double arrow",
+      "aliases": ["up", "double arrow", "arrow"]
+    },
+    {
+      "value": "⇩",
+      "name": "Down-pointing double arrow",
+      "aliases": ["down", "double arrow", "arrow"]
+    },
+    {
+      "value": "↱",
+      "name": "Down-right-up arrow",
+      "aliases": ["down right up", "arrow"]
+    },
+    {
+      "value": "↲",
+      "name": "Up-right-down arrow",
+      "aliases": ["up right down", "arrow"]
+    },
+    {
+      "value": "↻",
+      "name": "Clockwise circular arrow",
+      "aliases": ["circle", "rotation", "repeat", "reload", "clockwise", "arrow"]
+    },
+    {
+      "value": "↺",
+      "name": "Counterclockwise circular arrow",
+      "aliases": ["circle", "rotation", "back", "counterclockwise", "arrow"]
+    },
+    {
+      "value": "⇄",
+      "name": "Bidirectional horizontal arrow",
+      "aliases": ["bidirectional", "left", "right", "back and forth", "arrow"]
+    },
+    {
+      "value": "⇵",
+      "name": "Bidirectional vertical arrow",
+      "aliases": ["bidirectional", "up", "down", "up and down", "arrow"]
+    },
+    {
+      "value": "⟶",
+      "name": "Long right arrow",
+      "aliases": ["right arrow", "long", "mathematics", "arrow", "sequence", "function"]
+    }
+  ]
+}

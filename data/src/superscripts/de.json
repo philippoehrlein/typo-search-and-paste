@@ -1,0 +1,206 @@
+{
+  "characters": [
+    {
+      "value": "⁰",
+      "name": "Hochgestellte Null",
+      "aliases": ["hochgestellt", "null", "superscript", "0"]
+    },
+    {
+      "value": "¹",
+      "name": "Hochgestellte Eins",
+      "aliases": ["hochgestellt", "eins", "superscript", "1"]
+    },
+    {
+      "value": "²",
+      "name": "Hochgestellte Zwei",
+      "aliases": ["hochgestellt", "zwei", "superscript", "2"]
+    },
+    {
+      "value": "³",
+      "name": "Hochgestellte Drei",
+      "aliases": ["hochgestellt", "drei", "superscript", "3"]
+    },
+    {
+      "value": "⁴",
+      "name": "Hochgestellte Vier",
+      "aliases": ["hochgestellt", "vier", "superscript", "4"]
+    },
+    {
+      "value": "⁵",
+      "name": "Hochgestellte Fünf",
+      "aliases": ["hochgestellt", "fünf", "superscript", "5"]
+    },
+    {
+      "value": "⁶",
+      "name": "Hochgestellte Sechs",
+      "aliases": ["hochgestellt", "sechs", "superscript", "6"]
+    },
+    {
+      "value": "⁷",
+      "name": "Hochgestellte Sieben",
+      "aliases": ["hochgestellt", "sieben", "superscript", "7"]
+    },
+    {
+      "value": "⁸",
+      "name": "Hochgestellte Acht",
+      "aliases": ["hochgestellt", "acht", "superscript", "8"]
+    },
+    {
+      "value": "⁹",
+      "name": "Hochgestellte Neun",
+      "aliases": ["hochgestellt", "neun", "superscript", "9"]
+    },
+
+    {
+      "value": "⁺",
+      "name": "Hochgestelltes Plus",
+      "aliases": ["hochgestellt", "plus", "superscript", "+"]
+    },
+    {
+      "value": "⁻",
+      "name": "Hochgestelltes Minus",
+      "aliases": ["hochgestellt", "minus", "superscript", "-"]
+    },
+    {
+      "value": "⁼",
+      "name": "Hochgestelltes Gleich",
+      "aliases": ["hochgestellt", "gleich", "superscript", "="]
+    },
+    {
+      "value": "⁽",
+      "name": "Hochgestellte öffnende Klammer",
+      "aliases": ["hochgestellt", "klammer auf", "superscript", "("]
+    },
+    {
+      "value": "⁾",
+      "name": "Hochgestellte schließende Klammer",
+      "aliases": ["hochgestellt", "klammer zu", "superscript", ")"]
+    },
+
+    {
+      "value": "ᵃ",
+      "name": "Hochgestelltes a",
+      "aliases": ["hochgestellt", "a", "superscript"]
+    },
+    {
+      "value": "ᵇ",
+      "name": "Hochgestelltes b",
+      "aliases": ["hochgestellt", "b", "superscript"]
+    },
+    {
+      "value": "ᶜ",
+      "name": "Hochgestelltes c",
+      "aliases": ["hochgestellt", "c", "superscript"]
+    },
+    {
+      "value": "ᵈ",
+      "name": "Hochgestelltes d",
+      "aliases": ["hochgestellt", "d", "superscript"]
+    },
+    {
+      "value": "ᵉ",
+      "name": "Hochgestelltes e",
+      "aliases": ["hochgestellt", "e", "superscript"]
+    },
+    {
+      "value": "ᶠ",
+      "name": "Hochgestelltes f",
+      "aliases": ["hochgestellt", "f", "superscript"]
+    },
+    {
+      "value": "ᵍ",
+      "name": "Hochgestelltes g",
+      "aliases": ["hochgestellt", "g", "superscript"]
+    },
+    {
+      "value": "ʰ",
+      "name": "Hochgestelltes h",
+      "aliases": ["hochgestellt", "h", "superscript"]
+    },
+    {
+      "value": "ⁱ",
+      "name": "Hochgestelltes i",
+      "aliases": ["hochgestellt", "i", "superscript"]
+    },
+    {
+      "value": "ʲ",
+      "name": "Hochgestelltes j",
+      "aliases": ["hochgestellt", "j", "superscript"]
+    },
+    {
+      "value": "ᵏ",
+      "name": "Hochgestelltes k",
+      "aliases": ["hochgestellt", "k", "superscript"]
+    },
+    {
+      "value": "ˡ",
+      "name": "Hochgestelltes l",
+      "aliases": ["hochgestellt", "l", "superscript"]
+    },
+    {
+      "value": "ᵐ",
+      "name": "Hochgestelltes m",
+      "aliases": ["hochgestellt", "m", "superscript"]
+    },
+    {
+      "value": "ⁿ",
+      "name": "Hochgestelltes n",
+      "aliases": ["hochgestellt", "n", "superscript"]
+    },
+    {
+      "value": "ᵒ",
+      "name": "Hochgestelltes o",
+      "aliases": ["hochgestellt", "o", "superscript"]
+    },
+    {
+      "value": "ᵖ",
+      "name": "Hochgestelltes p",
+      "aliases": ["hochgestellt", "p", "superscript"]
+    },
+    {
+      "value": "ʳ",
+      "name": "Hochgestelltes r",
+      "aliases": ["hochgestellt", "r", "superscript"]
+    },
+    {
+      "value": "ˢ",
+      "name": "Hochgestelltes s",
+      "aliases": ["hochgestellt", "s", "superscript"]
+    },
+    {
+      "value": "ᵗ",
+      "name": "Hochgestelltes t",
+      "aliases": ["hochgestellt", "t", "superscript"]
+    },
+    {
+      "value": "ᵘ",
+      "name": "Hochgestelltes u",
+      "aliases": ["hochgestellt", "u", "superscript"]
+    },
+    {
+      "value": "ᵛ",
+      "name": "Hochgestelltes v",
+      "aliases": ["hochgestellt", "v", "superscript"]
+    },
+    {
+      "value": "ʷ",
+      "name": "Hochgestelltes w",
+      "aliases": ["hochgestellt", "w", "superscript"]
+    },
+    {
+      "value": "ˣ",
+      "name": "Hochgestelltes x",
+      "aliases": ["hochgestellt", "x", "superscript"]
+    },
+    {
+      "value": "ʸ",
+      "name": "Hochgestelltes y",
+      "aliases": ["hochgestellt", "y", "superscript"]
+    },
+    {
+      "value": "ᶻ",
+      "name": "Hochgestelltes z",
+      "aliases": ["hochgestellt", "z", "superscript"]
+    }
+  ]
+}

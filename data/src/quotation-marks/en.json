@@ -1,0 +1,79 @@
+{
+  "characters": [
+    {
+      "value": "„",
+      "name": "Left double quotation mark",
+      "aliases": ["left", "quotation", "mark", "quote", "double", "quotation"]
+    },
+    {
+      "value": "“",
+      "name": "Right   double quotation mark",
+      "aliases": ["right", "quotation", "mark", "quote", "double", "quotation"]
+    },
+    {
+      "value": "‚",
+      "name": "Left single quotation mark",
+      "aliases": ["left", "quotation", "mark", "quote", "single", "quotation"]
+    },
+    {
+      "value": "‘",
+      "name": "Right single quotation mark",
+      "aliases": ["right", "quotation", "mark", "quote", "single", "quotation"]
+    },
+    {
+      "value": "«",
+      "name": "Left double angle quotation mark",
+      "aliases": ["left", "quotation", "mark", "quote", "double", "angle", "quotation"]
+    },
+    {
+      "value": "»",
+      "name": "Right double angle quotation mark",
+      "aliases": ["right", "quotation", "mark", "quote", "double", "angle", "quotation"]
+    },
+    {
+      "value": "‹",
+      "name": "Left single angle quotation mark",
+      "aliases": ["left", "quotation", "mark", "quote", "single", "angle", "quotation"]
+    },
+    {
+      "value": "›",
+      "name": "Right single angle quotation mark",
+      "aliases": ["right", "quotation", "mark", "quote", "single", "angle", "quotation"]
+    },
+    {
+      "value": "‟",
+      "name": "Right double quotation mark",
+      "aliases": ["right", "quotation", "mark", "quote", "double", "quotation"]
+    },
+    {
+      "value": "‛",
+      "name": "Right single quotation mark",
+      "aliases": ["right", "quotation", "mark", "quote", "single", "quotation"]
+    },
+    {
+      "value": "″",
+      "name": "Double quotation mark",
+      "aliases": ["double", "quotation", "mark", "quote", "quotation"]
+    },
+    {
+      "value": "❝",
+      "name": "Left double quotation mark decorative",
+      "aliases": ["left", "quotation", "mark", "quote", "double", "quotation"]
+    },
+    {
+      "value": "❞",
+      "name": "Right double quotation mark decorative",
+      "aliases": ["right", "quotation", "mark", "quote", "double", "quotation"]
+    },
+    {
+      "value": "❛",
+      "name": "Left single quotation mark decorative",
+      "aliases": ["left", "quotation", "mark", "quote", "single", "quotation"]
+    },
+    {
+      "value": "❜",
+      "name": "Right single quotation mark decorative",
+      "aliases": ["right", "quotation", "mark", "quote", "single", "quotation"]
+    }
+  ]
+}

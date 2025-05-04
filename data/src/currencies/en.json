@@ -1,0 +1,94 @@
+{
+  "characters": [
+    {
+      "value": "$",
+      "name": "Dollar",
+      "aliases": ["money", "currency", "usd", "dollar", "america"]
+    },
+    {
+      "value": "€",
+      "name": "Euro",
+      "aliases": ["money", "currency", "euro", "eur", "europe"]
+    },
+    {
+      "value": "£",
+      "name": "Pound",
+      "aliases": ["money", "currency", "pfund", "gbp", "british", "uk"]
+    },
+    {
+      "value": "¥",
+      "name": "Yen",
+      "aliases": ["money", "currency", "yen", "yuan", "japan", "china"]
+    },
+    {
+      "value": "₿",
+      "name": "Bitcoin",
+      "aliases": ["money", "currency", "bitcoin", "btc", "crypto"]
+    },
+    {
+      "value": "₽",
+      "name": "Rubel",
+      "aliases": ["money", "currency", "rubel", "russia"]
+    },
+    {
+      "value": "₩",
+      "name": "Won",
+      "aliases": ["money", "currency", "won", "korea", "krw"]
+    },
+    {
+      "value": "₹",
+      "name": "Rupie",
+      "aliases": ["money", "currency", "rupie", "india", "inr"]
+    },
+    {
+      "value": "₺",
+      "name": "Turkish Lira",
+      "aliases": ["money", "currency", "lira", "turkey", "turkia", "try"]
+    },
+    {
+      "value": "₪",
+      "name": "Shekel",
+      "aliases": ["money", "currency", "shekel", "israel", "ils"]
+    },
+    {
+      "value": "₫",
+      "name": "Dong",
+      "aliases": ["money", "currency", "dong", "vietnam", "vnd"]
+    },
+    {
+      "value": "₦",
+      "name": "Naira",
+      "aliases": ["money", "currency", "naira", "nigeria", "ngn"]
+    },
+    {
+      "value": "₴",
+      "name": "Hrywnja",
+      "aliases": ["money", "currency", "hrywnja", "ukraine", "uah"]
+    },
+    {
+      "value": "₡",
+      "name": "Colón",
+      "aliases": ["money", "currency", "colon", "costa rica", "crc"]
+    },
+    {
+      "value": "₵",
+      "name": "Cedi",
+      "aliases": ["money", "currency", "cedi", "ghana", "ghs"]
+    },
+    {
+      "value": "₸",
+      "name": "Tenge",
+      "aliases": ["money", "currency", "tenge", "kazakhstan", "kzt"]
+    },
+    {
+      "value": "฿",
+      "name": "Baht",
+      "aliases": ["money", "currency", "baht", "thailand", "thb"]
+    },
+    {
+      "value": "₭",
+      "name": "Kip",
+      "aliases": ["money", "currency", "kip", "laos", "lak"]
+    }
+  ]
+}

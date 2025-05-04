@@ -1,0 +1,39 @@
+{
+  "characters": [
+    {
+      "value": "♩",
+      "name": "Whole Note",
+      "aliases": ["music", "whole note", "whole", "wholes"]
+    },
+    {
+      "value": "♪",
+      "name": "Eighth Note",
+      "aliases": ["music", "eighth note", "eighth", "eighths"]
+    },
+    {
+      "value": "♫",
+      "name": "Quarter Note",
+      "aliases": ["music", "quarter note", "quarter", "quarters"]
+    },
+    {
+      "value": "♬",
+      "name": "Half Note",
+      "aliases": ["music", "half note", "half", "halves"]
+    },
+    {
+      "value": "♭",
+      "name": "B-Major",
+      "aliases": ["music", "b-major", "b", "b-major", "b-majors"]
+    },
+    {
+      "value": "♮",
+      "name": "Resolution Sign",
+      "aliases": ["music", "resolution sign", "resolution", "resolutions"]
+    },
+    {
+      "value": "♯",
+      "name": "Sharp",
+      "aliases": ["music", "sharp", "music", "sharp", "sharps"]
+    }
+  ]
+}

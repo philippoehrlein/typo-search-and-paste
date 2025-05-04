@@ -1,0 +1,79 @@
+{
+  "characters": [
+    {
+      "value": "„",
+      "name": "Anführungszeichen unten doppelt",
+      "aliases": ["anfangszeichen", "unten", "links", "doppelt", "zitat", "anführungszeichen"]
+    },
+    {
+      "value": "“",
+      "name": "Anführungszeichen oben doppelt",
+      "aliases": ["endzeichen", "oben", "rechts", "doppelt", "zitat", "anführungszeichen"]
+    },
+    {
+      "value": "‚",
+      "name": "Anführungszeichen unten einfach",
+      "aliases": ["anfangszeichen", "unten", "links", "einfach", "zitat", "anführungszeichen"]
+    },
+    {
+      "value": "‘",
+      "name": "Anführungszeichen oben einfach",
+      "aliases": ["endzeichen", "oben", "rechts", "einfach", "zitat", "anführungszeichen"]
+    },
+    {
+      "value": "«",
+      "name": "Anführungszeichen spitz doppelt links",
+      "aliases": ["anfangszeichen", "spitz", "doppelt", "links", "anführungszeichen"]
+    },
+    {
+      "value": "»",
+      "name": "Anführungszeichen spitz doppelt rechts",
+      "aliases": ["endzeichen", "spitz", "doppelt", "rechts", "anführungszeichen"]
+    },
+    {
+      "value": "‹",
+      "name": "Anführungszeichen spitz einfach links",
+      "aliases": ["anfangszeichen", "spitz", "einfach", "links", "anführungszeichen"]
+    },
+    {
+      "value": "›",
+      "name": "Anführungszeichen spitz einfach rechts",
+      "aliases": ["endzeichen", "spitz", "einfach", "rechts", "anführungszeichen"]
+    },
+    {
+      "value": "‟",
+      "name": "Anführungszeichen oben doppelt umgekehrt",
+      "aliases": ["oben", "doppelt", "umgekehrt", "zitat", "anführungszeichen"]
+    },
+    {
+      "value": "‛",
+      "name": "Anführungszeichen oben einfach umgekehrt",
+      "aliases": ["oben", "einfach", "umgekehrt", "zitat", "anführungszeichen"]
+    },
+    {
+      "value": "″",
+      "name": "Doppeltes Strichzeichen (verwendet als Anführungszeichen)",
+      "aliases": ["doppelt", "strich", "ersatz", "anführungszeichen", "sekunde"]
+    },
+    {
+      "value": "❝",
+      "name": "Dekoratives Anführungszeichen doppelt links",
+      "aliases": ["dekorativ", "doppelt", "links", "anfangszeichen", "zitat", "anführungszeichen"]
+    },
+    {
+      "value": "❞",
+      "name": "Dekoratives Anführungszeichen doppelt rechts",
+      "aliases": ["dekorativ", "doppelt", "rechts", "endzeichen", "zitat", "anführungszeichen"]
+    },
+    {
+      "value": "❛",
+      "name": "Dekoratives Anführungszeichen einfach links",
+      "aliases": ["dekorativ", "einfach", "links", "anfangszeichen", "zitat", "anführungszeichen"]
+    },
+    {
+      "value": "❜",
+      "name": "Dekoratives Anführungszeichen einfach rechts",
+      "aliases": ["dekorativ", "einfach", "rechts", "endzeichen", "zitat", "anführungszeichen"]
+    }
+  ]
+}

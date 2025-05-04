@@ -1,0 +1,69 @@
+{
+  "characters": [
+    {
+      "value": "°",
+      "name": "Degree",
+      "aliases": ["degree", "temperature", "angle"]
+    },
+    {
+      "value": "′",
+      "name": "Minute",
+      "aliases": ["minute", "foot", "prime", "min"]
+    },
+    {
+      "value": "″",
+      "name": "Second",
+      "aliases": ["second", "inch", "double prime"]
+    },
+    {
+      "value": "℃",
+      "name": "Celsius",
+      "aliases": ["celsius", "temperature", "degree"]
+    },
+    {
+      "value": "℉",
+      "name": "Fahrenheit",
+      "aliases": ["fahrenheit", "temperature", "degree"]
+    },
+    {
+      "value": "µ",
+      "name": "Micro",
+      "aliases": ["micro", "micro", "my"]
+    },
+    {
+      "value": "Ω",
+      "name": "Ohm",
+      "aliases": ["ohm", "resistance", "electricity"]
+    },
+    {
+      "value": "%",
+      "name": "Percent",
+      "aliases": ["percent"]
+    },
+    {
+      "value": "‰",
+      "name": "Promille",
+      "aliases": ["promille"]
+    },
+    {
+      "value": "‱",
+      "name": "Basispunkt",
+      "aliases": ["basis point"]
+    },
+    {
+      "value": "Å",
+      "name": "Ångström",
+      "aliases": ["angstrom", "length", "nanometer"]
+    },
+    {
+      "value": "ℓ",
+      "name": "Liter",
+      "aliases": ["liter", "volume", "unit"]
+    },
+    {
+      "value": "₦",
+      "name": "Naira",
+      "aliases": ["naira", "nigeria", "currency"]
+    }
+  ]
+}

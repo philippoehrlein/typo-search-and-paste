@@ -1,0 +1,39 @@
+{
+  "characters": [
+    {
+      "value": "♩",
+      "name": "Ganze Note",
+      "aliases": ["musik", "ganze note", "ganze", "ganzen"]
+    },
+    {
+      "value": "♪",
+      "name": "Achtelnote",
+      "aliases": ["musik", "achtel note", "achtel", "achtelnoten"]
+    },
+    {
+      "value": "♫",
+      "name": "Viertel Note",
+      "aliases": ["musik", "ganze note", "ganze", "ganzen"]
+    },
+    {
+      "value": "♬",
+      "name": "Halbe Note",
+      "aliases": ["musik", "halbe note", "halbe", "halben"]
+    },
+    {
+      "value": "♭",
+      "name": "B-Dur",
+      "aliases": ["musik", "b-dur", "b", "b-dur", "b-duren"]
+    },
+    {
+      "value": "♮",
+      "name": "Auflösungszeichen",
+      "aliases": ["musik", "auflösungszeichen", "auflösung", "auflösungen"]
+    },
+    {
+      "value": "♯",
+      "name": "Kreuz (Musik)",
+      "aliases": ["musik", "kreuz", "musik", "kreuz", "erhöhung"]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "characters": [
+    {
+      "value": "©",
+      "name": "Copyright",
+      "aliases": ["legal", "rechtlich", "copyright", "recht", "urheberrecht", "geschützt"]
+    },
+    {
+      "value": "®",
+      "name": "Registered Trademark",
+      "aliases": ["legal", "rechtlich", "registered", "marke", "eingetragen", "schutzmarke"]
+    },
+    {
+      "value": "™",
+      "name": "Trademark",
+      "aliases": ["legal", "rechtlich", "trademark", "marke", "tm", "warenzeichen"]
+    },
+    {
+      "value": "℗",
+      "name": "Phonogram Copyright",
+      "aliases": ["legal", "rechtlich", "phonogram", "tonträger", "aufnahme", "produktionsrechte"]
+    },
+    {
+      "value": "§",
+      "name": "Paragraphenzeichen",
+      "aliases": ["legal", "rechtlich", "paragraph", "gesetz", "abschnitt", "recht"]
+    },
+    {
+      "value": "¶",
+      "name": "Absatzzeichen",
+      "aliases": ["legal", "rechtlich", "absatz", "pilcrow", "textstruktur"]
+    },
+    {
+      "value": "†",
+      "name": "Fußnoten-Kreuz",
+      "aliases": ["legal", "rechtlich", "fußnote", "kreuz", "sterbezeichen"]
+    },
+    {
+      "value": "‡",
+      "name": "Doppelkreuz",
+      "aliases": ["legal", "rechtlich", "doppelkreuz", "zweite fußnote"]
+    }
+  ]
+}

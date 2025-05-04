@@ -1,0 +1,206 @@
+{
+  "characters": [
+    {
+      "value": "⁰",
+      "name": "Superscript Zero",
+      "aliases": ["superscript", "zero", "0"]
+    },
+    {
+      "value": "¹",
+      "name": "Superscript One",
+      "aliases": ["superscript", "one", "1"]
+    },
+    {
+      "value": "²",
+      "name": "Superscript Two",
+      "aliases": ["superscript", "two", "2"]
+    },
+    {
+      "value": "³",
+      "name": "Superscript Three",
+      "aliases": ["superscript", "three", "3"]
+    },
+    {
+      "value": "⁴",
+      "name": "Superscript Four",
+      "aliases": ["superscript", "four", "4"]
+    },
+    {
+      "value": "⁵",
+      "name": "Superscript Five",
+      "aliases": ["superscript", "five", "5"]
+    },
+    {
+      "value": "⁶",
+      "name": "Superscript Six",
+      "aliases": ["superscript", "six", "6"]
+    },
+    {
+      "value": "⁷",
+      "name": "Superscript Seven",
+      "aliases": ["superscript", "seven", "7"]
+    },
+    {
+      "value": "⁸",
+      "name": "Superscript Eight",
+      "aliases": ["superscript", "eight", "8"]
+    },
+    {
+      "value": "⁹",
+      "name": "Superscript Nine",
+      "aliases": ["superscript", "nine", "9"]
+    },
+
+    {
+      "value": "⁺",
+      "name": "Superscript Plus",
+      "aliases": ["superscript", "plus", "+"]
+    },
+    {
+      "value": "⁻",
+      "name": "Superscript Minus",
+      "aliases": ["superscript", "minus", "-"]
+    },
+    {
+      "value": "⁼",
+      "name": "Superscript Equal",
+      "aliases": ["superscript", "equal", "="]
+    },
+    {
+      "value": "⁽",
+      "name": "Superscript Open Parenthesis",
+      "aliases": ["superscript", "open parenthesis", "("]
+    },
+    {
+      "value": "⁾",
+      "name": "Superscript Close Parenthesis",
+      "aliases": ["superscript", "close parenthesis", ")"]
+    },
+
+    {
+      "value": "ᵃ",
+      "name": "Superscript a",
+      "aliases": ["superscript", "a"]
+    },
+    {
+      "value": "ᵇ",
+      "name": "Superscript b",
+      "aliases": ["superscript", "b"]
+    },
+    {
+      "value": "ᶜ",
+      "name": "Superscript c",
+      "aliases": ["superscript", "c"]
+    },
+    {
+      "value": "ᵈ",
+      "name": "Superscript d",
+      "aliases": ["superscript", "d"]
+    },
+    {
+      "value": "ᵉ",
+      "name": "Superscript e",
+      "aliases": ["superscript", "e"]
+    },
+    {
+      "value": "ᶠ",
+      "name": "Superscript f",
+      "aliases": ["superscript", "f"]
+    },
+    {
+      "value": "ᵍ",
+      "name": "Superscript g",
+      "aliases": ["superscript", "g"]
+    },
+    {
+      "value": "ʰ",
+      "name": "Superscript h",
+      "aliases": ["superscript", "h"]
+    },
+    {
+      "value": "ⁱ",
+      "name": "Superscript i",
+      "aliases": ["superscript", "i"]
+    },
+    {
+      "value": "ʲ",
+      "name": "Superscript j",
+      "aliases": ["superscript", "j"]
+    },
+    {
+      "value": "ᵏ",
+      "name": "Superscript k",
+      "aliases": ["superscript", "k"]
+    },
+    {
+      "value": "ˡ",
+      "name": "Superscript l",
+      "aliases": ["superscript", "l"]
+    },
+    {
+      "value": "ᵐ",
+      "name": "Superscript m",
+      "aliases": ["superscript", "m"]
+    },
+    {
+      "value": "ⁿ",
+      "name": "Superscript n",
+      "aliases": ["superscript", "n"]
+    },
+    {
+      "value": "ᵒ",
+      "name": "Superscript o",
+      "aliases": ["superscript", "o"]
+    },
+    {
+      "value": "ᵖ",
+      "name": "Superscript p",
+      "aliases": ["superscript", "p"]
+    },
+    {
+      "value": "ʳ",
+      "name": "Superscript r",
+      "aliases": ["superscript", "r"]
+    },
+    {
+      "value": "ˢ",
+      "name": "Superscript s",
+      "aliases": ["superscript", "s"]
+    },
+    {
+      "value": "ᵗ",
+      "name": "Superscript t",
+      "aliases": ["superscript", "t"]
+    },
+    {
+      "value": "ᵘ",
+      "name": "Superscript u",
+      "aliases": ["superscript", "u"]
+    },
+    {
+      "value": "ᵛ",
+      "name": "Superscript v",
+      "aliases": ["superscript", "v"]
+    },
+    {
+      "value": "ʷ",
+      "name": "Superscript w",
+      "aliases": ["superscript", "w"]
+    },
+    {
+      "value": "ˣ",
+      "name": "Superscript x",
+      "aliases": ["superscript", "x"]
+    },
+    {
+      "value": "ʸ",
+      "name": "Superscript y",
+      "aliases": ["superscript", "y"]
+    },
+    {
+      "value": "ᶻ",
+      "name": "Superscript z",
+      "aliases": ["superscript", "z"]
+    }
+  ]
+}

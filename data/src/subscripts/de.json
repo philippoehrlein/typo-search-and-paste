@@ -1,0 +1,105 @@
+{
+  "characters": [
+    {
+      "value": "₀",
+      "name": "Tiefgestellte Null",
+      "aliases": ["tiefgestellt", "null", "subscript", "0"]
+    },
+    {
+      "value": "₁",
+      "name": "Tiefgestellte Eins",
+      "aliases": ["tiefgestellt", "eins", "subscript", "1"]
+    },
+    {
+      "value": "₂",
+      "name": "Tiefgestellte Zwei",
+      "aliases": ["tiefgestellt", "zwei", "subscript", "2"]
+    },
+    {
+      "value": "₊",
+      "name": "Tiefgestelltes Plus",
+      "aliases": ["tiefgestellt", "plus", "subscript", "+"]
+    },
+    {
+      "value": "₋",
+      "name": "Tiefgestelltes Minus",
+      "aliases": ["tiefgestellt", "minus", "subscript", "-"]
+    },
+    {
+      "value": "₌",
+      "name": "Tiefgestelltes Gleich",
+      "aliases": ["tiefgestellt", "gleich", "subscript", "="]
+    },
+    {
+      "value": "₍",
+      "name": "Tiefgestellte öffnende Klammer",
+      "aliases": ["tiefgestellt", "klammer auf", "subscript", "("]
+    },
+    {
+      "value": "₎",
+      "name": "Tiefgestellte schließende Klammer",
+      "aliases": ["tiefgestellt", "klammer zu", "subscript", ")"]
+    },
+
+    {
+      "value": "ₐ",
+      "name": "Tiefgestelltes a",
+      "aliases": ["tiefgestellt", "a", "subscript"]
+    },
+    {
+      "value": "ₑ",
+      "name": "Tiefgestelltes e",
+      "aliases": ["tiefgestellt", "e", "subscript"]
+    },
+    {
+      "value": "ₕ",
+      "name": "Tiefgestelltes h",
+      "aliases": ["tiefgestellt", "h", "subscript"]
+    },
+    {
+      "value": "ₖ",
+      "name": "Tiefgestelltes k",
+      "aliases": ["tiefgestellt", "k", "subscript"]
+    },
+    {
+      "value": "ₗ",
+      "name": "Tiefgestelltes l",
+      "aliases": ["tiefgestellt", "l", "subscript"]
+    },
+    {
+      "value": "ₘ",
+      "name": "Tiefgestelltes m",
+      "aliases": ["tiefgestellt", "m", "subscript"]
+    },
+    {
+      "value": "ₙ",
+      "name": "Tiefgestelltes n",
+      "aliases": ["tiefgestellt", "n", "subscript"]
+    },
+    {
+      "value": "ₒ",
+      "name": "Tiefgestelltes o",
+      "aliases": ["tiefgestellt", "o", "subscript"]
+    },
+    {
+      "value": "ₚ",
+      "name": "Tiefgestelltes p",
+      "aliases": ["tiefgestellt", "p", "subscript"]
+    },
+    {
+      "value": "ₛ",
+      "name": "Tiefgestelltes s",
+      "aliases": ["tiefgestellt", "s", "subscript"]
+    },
+    {
+      "value": "ₜ",
+      "name": "Tiefgestelltes t",
+      "aliases": ["tiefgestellt", "t", "subscript"]
+    },
+    {
+      "value": "ₓ",
+      "name": "Tiefgestelltes x",
+      "aliases": ["tiefgestellt", "x", "subscript"]
+    }
+  ]
+}

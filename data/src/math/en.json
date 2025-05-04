@@ -1,0 +1,245 @@
+{
+  "characters": [
+    {
+      "value": "+",
+      "name": "Plus",
+      "aliases": ["plus", "add", "addition", "calculate", "positive"]
+    },
+    {
+      "value": "−",
+      "name": "Minus",
+      "aliases": ["minus", "sub", "subtract", "negative"]
+    },
+    {
+      "value": "±",
+      "name": "Plusminus",
+      "aliases": ["plusminus", "toleranz", "ungefähr"]
+    },
+    {
+      "value": "×",
+      "name": "Multiplication",
+      "aliases": ["multiply", "times", "multiplication"]
+    },
+    {
+      "value": "÷",
+      "name": "Division",
+      "aliases": ["divide", "division", "divide by"]
+    },
+    {
+      "value": "∕",
+      "name": "Fraction",
+      "aliases": ["fraction", "division", "slash"]
+    },
+    {
+      "value": "=",
+      "name": "Equal",
+      "aliases": ["equal", "is equal"]
+    },
+    {
+      "value": "≠",
+      "name": "Not equal",
+      "aliases": ["not equal"]
+    },
+    {
+      "value": "<",
+      "name": "Less than",
+      "aliases": ["less than"]
+    },
+    { "value": ">", "name": "Greater than", "aliases": ["greater than"] },
+    {
+      "value": "≤",
+      "name": "Less than or equal to",
+      "aliases": ["less than or equal to"]
+    },
+    {
+      "value": "≥",
+      "name": "Greater than or equal to",
+      "aliases": ["greater than or equal to"]
+    },
+    {
+      "value": "≈",
+      "name": "Approximately equal to",
+      "aliases": ["approximately equal to"]
+    },
+    {
+      "value": "≅",
+      "name": "Congruent",
+      "aliases": ["congruent", "corresponds", "geometry"]
+    },
+    {
+      "value": "≡",
+      "name": "Identical",
+      "aliases": ["identical", "three equals", "logic"]
+    },
+    {
+      "value": "∑",
+      "name": "Sum",
+      "aliases": ["sum", "sigma", "summation"]
+    },
+    {
+      "value": "∏",
+      "name": "Product",
+      "aliases": ["product", "pi", "multiplication"]
+    },
+    {
+      "value": "∫",
+      "name": "Integral",
+      "aliases": ["integral", "area"]
+    },
+    {
+      "value": "√",
+      "name": "Square root",
+      "aliases": ["square root"]
+    },
+    {
+      "value": "∛",
+      "name": "Cube root",
+      "aliases": ["cube root"]
+    },
+    {
+      "value": "∞",
+      "name": "Infinity",
+      "aliases": ["infinity", "limit"]
+    },
+    {
+      "value": "∝",
+      "name": "Proportional",
+      "aliases": ["proportional", "ratio"]
+    },
+    {
+      "value": "∈",
+      "name": "Element of",
+      "aliases": ["element", "in", "set theory"]
+    },
+    {
+      "value": "∉",
+      "name": "Not an element of",
+      "aliases": ["not an element of"]
+    },
+    {
+      "value": "⊂",
+      "name": "Subset",
+      "aliases": ["subset"]
+    },
+    {
+      "value": "⊆",
+      "name": "Subset or equal to",
+      "aliases": ["subset or equal to"]
+    },
+    {
+      "value": "⊃",
+      "name": "Superset",
+      "aliases": ["superset"]
+    },
+    {
+      "value": "⊇",
+      "name": "Superset or equal to",
+      "aliases": ["superset or equal to"]
+    },
+    {
+      "value": "∅",
+      "name": "Empty set",
+      "aliases": ["empty set"]
+    },
+    {
+      "value": "∧",
+      "name": "And (logic)",
+      "aliases": ["and", "logic"]
+    },
+    {
+      "value": "∨",
+      "name": "Or (logic)s",
+      "aliases": ["or", "logic"]
+    },
+    {
+      "value": "¬",
+      "name": "Not (logic)",
+      "aliases": ["not", "logic", "negation"]
+    },
+    {
+      "value": "⇒",
+      "name": "Implication",
+      "aliases": ["implication", "follows"]
+    },
+    {
+      "value": "⇔",
+      "name": "Equivalence",
+      "aliases": ["equivalence", "if and only if"]
+    },
+    {
+      "value": "½",
+      "name": "Half",
+      "aliases": ["half"]
+    },
+    {
+      "value": "¼",
+      "name": "Quarter",
+      "aliases": ["quarter"]
+    },
+    {
+      "value": "¾",
+      "name": "Three quarters",
+      "aliases": ["three quarters"]
+    },
+    {
+      "value": "⅓",
+      "name": "One third",
+      "aliases": ["one third"]
+    },
+    {
+      "value": "⅔",
+      "name": "Two thirds",
+      "aliases": ["two thirds"]
+    },
+    {
+      "value": "⅕",
+      "name": "One fifth",
+      "aliases": ["one fifth"]
+    },
+    {
+      "value": "⅖",
+      "name": "Two fifths",
+      "aliases": ["two fifths"]
+    },
+    {
+      "value": "⅗",
+      "name": "Three fifths",
+      "aliases": ["three fifths"]
+    },
+    {
+      "value": "⅘",
+      "name": "Four fifths",
+      "aliases": ["four fifths"]
+    },
+    {
+      "value": "⅙",
+      "name": "One sixth",
+      "aliases": ["one sixth"]
+    },
+    {
+      "value": "⅚",
+      "name": "Five sixths",
+      "aliases": ["five sixths"]
+    },
+    {
+      "value": "⅛",
+      "name": "One eighth",
+      "aliases": ["one eighth"]
+    },
+    {
+      "value": "⅜",
+      "name": "Three eighths",
+      "aliases": ["three eighths"]
+    },
+    {
+      "value": "⅝",
+      "name": "Five eighths",
+      "aliases": ["five eighths"]
+    },
+    {
+      "value": "⅞",
+      "name": "Seven eighths",
+      "aliases": ["seven eighths"]
+    }
+  ]
+}

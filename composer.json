@@ -1,0 +1,42 @@
+{
+  "name": "philippoehrlein/typo-search-and-paste",
+  "description": "A Kirby plugin for searching and inserting special characters with multi-language support.",
+  "type": "kirby-plugin",
+  "license": "MIT",
+  "version": "1.0.0",
+  "homepage": "https://github.com/philippoehrlein/typo-search-and-paste",
+  "authors": [
+    {
+      "name": "philippoehrlein",
+      "email": "dev@philippoehrlein.de"
+    }
+  ],
+  "require": {
+    "php": ">=8.1.0",
+    "getkirby/composer-installer": "^1.2"
+  },
+  "require-dev": {
+    "getkirby/cms": "^4.0 || ^5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Philippoehrlein\\TypoSearchAndPaste\\": "src/"
+    }
+  },
+  "scripts": {
+    "build-db": "php data/src/build.php",
+    "dev": [
+      "Composer\\Config::disableProcessTimeout",
+      "@php -S localhost:8000 -t playground/public vendor/getkirby/cms/router.php"
+    ]
+  },
+  "config": {
+    "allow-plugins": {
+      "getkirby/composer-installer": true
+    }
+  },
+  "extra": {
+    "kirby-cms-path": false,
+    "installer-name": "typo-search-and-paste"
+  }
+}

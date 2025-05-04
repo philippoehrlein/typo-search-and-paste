@@ -1,0 +1,232 @@
+{
+  "characters": [
+    {
+      "value": "Α",
+      "name": "Alpha (groß)",
+      "aliases": ["griechisch", "alpha", "groß", "großbuchstabe"]
+    },
+    {
+      "value": "Β",
+      "name": "Beta (groß)",
+      "aliases": ["griechisch", "beta", "groß"]
+    },
+    {
+      "value": "Γ",
+      "name": "Gamma (groß)",
+      "aliases": ["griechisch", "gamma", "groß"]
+    },
+    {
+      "value": "Δ",
+      "name": "Delta (groß)",
+      "aliases": ["griechisch", "delta", "groß", "differenz"]
+    },
+    {
+      "value": "Ε",
+      "name": "Epsilon (groß)",
+      "aliases": ["griechisch", "epsilon", "groß"]
+    },
+    {
+      "value": "Ζ",
+      "name": "Zeta (groß)",
+      "aliases": ["griechisch", "zeta", "groß"]
+    },
+    {
+      "value": "Η",
+      "name": "Eta (groß)",
+      "aliases": ["griechisch", "eta", "groß"]
+    },
+    {
+      "value": "Θ",
+      "name": "Theta (groß)",
+      "aliases": ["griechisch", "theta", "groß", "winkel"]
+    },
+    {
+      "value": "Ι",
+      "name": "Iota (groß)",
+      "aliases": ["griechisch", "iota", "groß"]
+    },
+    {
+      "value": "Κ",
+      "name": "Kappa (groß)",
+      "aliases": ["griechisch", "kappa", "groß"]
+    },
+    {
+      "value": "Λ",
+      "name": "Lambda (groß)",
+      "aliases": ["griechisch", "lambda", "groß"]
+    },
+    {
+      "value": "Μ",
+      "name": "My (groß)",
+      "aliases": ["griechisch", "my", "groß"]
+    },
+    {
+      "value": "Ν",
+      "name": "Ny (groß)",
+      "aliases": ["griechisch", "ny", "groß"]
+    },
+    {
+      "value": "Ξ",
+      "name": "Xi (groß)",
+      "aliases": ["griechisch", "xi", "groß"]
+    },
+    {
+      "value": "Ο",
+      "name": "Omikron (groß)",
+      "aliases": ["griechisch", "omikron", "groß"]
+    },
+    {
+      "value": "Π",
+      "name": "Pi (groß)",
+      "aliases": ["griechisch", "pi", "groß", "produkt"]
+    },
+    {
+      "value": "Ρ",
+      "name": "Rho (groß)",
+      "aliases": ["griechisch", "rho", "groß"]
+    },
+    {
+      "value": "Σ",
+      "name": "Sigma (groß)",
+      "aliases": ["griechisch", "sigma", "groß", "summe"]
+    },
+    {
+      "value": "Τ",
+      "name": "Tau (groß)",
+      "aliases": ["griechisch", "tau", "groß"]
+    },
+    {
+      "value": "Υ",
+      "name": "Ypsilon (groß)",
+      "aliases": ["griechisch", "ypsilon", "groß"]
+    },
+    {
+      "value": "Φ",
+      "name": "Phi (groß)",
+      "aliases": ["griechisch", "phi", "groß", "goldener schnitt"]
+    },
+    {
+      "value": "Χ",
+      "name": "Chi (groß)",
+      "aliases": ["griechisch", "chi", "groß"]
+    },
+    {
+      "value": "Ψ",
+      "name": "Psi (groß)",
+      "aliases": ["griechisch", "psi", "groß"]
+    },
+    {
+      "value": "Ω",
+      "name": "Omega (groß)",
+      "aliases": ["griechisch", "omega", "groß", "widerstand", "ende"]
+    },
+    {
+      "value": "α",
+      "name": "Alpha",
+      "aliases": ["griechisch", "alpha", "winkel", "statistik"]
+    },
+    {
+      "value": "β",
+      "name": "Beta",
+      "aliases": ["griechisch", "beta", "verteilung", "physik"]
+    },
+    {
+      "value": "γ",
+      "name": "Gamma",
+      "aliases": ["griechisch", "gamma", "strahlung", "funktion"]
+    },
+    {
+      "value": "δ",
+      "name": "Delta",
+      "aliases": ["griechisch", "delta", "differenz", "klein"]
+    },
+    {
+      "value": "ε",
+      "name": "Epsilon",
+      "aliases": ["griechisch", "epsilon", "fehler", "klein"]
+    },
+    {
+      "value": "ζ",
+      "name": "Zeta",
+      "aliases": ["griechisch", "zeta", "klein"]
+    },
+    { "value": "η", "name": "Eta", "aliases": ["griechisch", "eta", "klein"] },
+    {
+      "value": "θ",
+      "name": "Theta",
+      "aliases": ["griechisch", "theta", "winkel", "klein"]
+    },
+    {
+      "value": "ι",
+      "name": "Iota",
+      "aliases": ["griechisch", "iota", "klein"]
+    },
+    {
+      "value": "κ",
+      "name": "Kappa",
+      "aliases": ["griechisch", "kappa", "klein"]
+    },
+    {
+      "value": "λ",
+      "name": "Lambda",
+      "aliases": ["griechisch", "lambda", "wellenlänge", "klein"]
+    },
+    {
+      "value": "μ",
+      "name": "My",
+      "aliases": ["griechisch", "my", "mikro", "klein", "µ"]
+    },
+    { "value": "ν", "name": "Ny", "aliases": ["griechisch", "ny", "klein"] },
+    { "value": "ξ", "name": "Xi", "aliases": ["griechisch", "xi", "klein"] },
+    {
+      "value": "ο",
+      "name": "Omikron",
+      "aliases": ["griechisch", "omikron", "klein"]
+    },
+    {
+      "value": "π",
+      "name": "Pi",
+      "aliases": ["griechisch", "pi", "kreiszahl", "klein"]
+    },
+    {
+      "value": "ρ",
+      "name": "Rho",
+      "aliases": ["griechisch", "rho", "dichte", "klein"]
+    },
+    {
+      "value": "σ",
+      "name": "Sigma",
+      "aliases": ["griechisch", "sigma", "streuung", "klein"]
+    },
+    {
+      "value": "τ",
+      "name": "Tau",
+      "aliases": ["griechisch", "tau", "zeitkonstante", "klein"]
+    },
+    {
+      "value": "υ",
+      "name": "Ypsilon",
+      "aliases": ["griechisch", "ypsilon", "klein"]
+    },
+    {
+      "value": "φ",
+      "name": "Phi",
+      "aliases": ["griechisch", "phi", "winkel", "klein"]
+    },
+    {
+      "value": "χ",
+      "name": "Chi",
+      "aliases": ["griechisch", "chi", "statistik", "klein"]
+    },
+    {
+      "value": "ψ",
+      "name": "Psi",
+      "aliases": ["griechisch", "psi", "wellenfunktion", "klein"]
+    },
+    {
+      "value": "ω",
+      "name": "Omega",
+      "aliases": ["griechisch", "omega", "frequenz", "klein"]
+    }
+  ]
+}

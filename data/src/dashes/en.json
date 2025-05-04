@@ -1,0 +1,110 @@
+{
+  "characters": [
+    {
+      "value": "-",
+      "name": "Dash",
+      "aliases": [
+        "dash",
+        "minus",
+        "short dash",
+        "hyphen",
+        "normal",
+        "dash"
+      ]
+    },
+    {
+      "value": "‐",
+      "name": "Soft hyphen",
+      "aliases": [
+        "soft hyphen",
+        "visible",
+        "word break",
+        "dash"
+      ]
+    },
+    {
+      "value": "‑",
+      "name": "Non-breaking hyphen",
+      "aliases": [
+        "non-breaking",
+        "non-breaking hyphen",
+        "dash",
+        "non-breaking"
+      ]
+    },
+    {
+      "value": "–",
+      "name": "En dash",
+      "aliases": [
+        "en dash",
+        "dash",
+        "middle dash",
+        "number range",
+        "between",
+        "dash"
+      ]
+    },
+    {
+      "value": "—",
+      "name": "Em dash",
+      "aliases": [
+        "em dash",
+        "long dash",
+        "dash",
+        "pause",
+        "dash"
+      ]
+    },
+    {
+      "value": "−",
+      "name": "Minus (Math)",
+      "aliases": [
+        "minus",
+        "math",
+        "subtract",
+        "negative",
+        "dash"
+      ]
+    },
+    {
+      "value": "﹣",
+      "name": "Small minus (Math)",
+      "aliases": [
+        "fullwidth",
+        "minus",
+        "asian",
+        "dash"
+      ]
+    },
+    {
+      "value": "﹘",
+      "name": "Small dash (Fullwidth)",
+      "aliases": [
+        "fullwidth",
+        "em dash",
+        "dash"
+      ]
+    },
+    {
+      "value": "﹣",
+      "name": "Half-width dash",
+      "aliases": ["half-width", "minus", "dash"]
+    },
+    {
+      "value": "⸺",
+      "name": "Double dash",
+      "aliases": [
+        "double dash",
+        "dialog",
+        "long dash",
+        "english",
+        "dash"
+      ]
+    },
+    {
+      "value": "⸻",
+      "name": "Tripple dash",
+      "aliases": ["tripple", "tripple dash", "emphasis", "dash"]
+    }
+  ]
+}

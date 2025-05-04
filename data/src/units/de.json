@@ -1,0 +1,69 @@
+{
+  "characters": [
+    {
+      "value": "°",
+      "name": "Gradzeichen",
+      "aliases": ["grad", "temperatur", "winkel"]
+    },
+    {
+      "value": "′",
+      "name": "Bogenminute / Fuß",
+      "aliases": ["bogenminute", "fuß", "prime", "min"]
+    },
+    {
+      "value": "″",
+      "name": "Bogensekunde / Zoll",
+      "aliases": ["bogensekunde", "zoll", "inch", "sekunde", "double prime"]
+    },
+    {
+      "value": "℃",
+      "name": "Grad Celsius",
+      "aliases": ["celsius", "temperatur", "grad"]
+    },
+    {
+      "value": "℉",
+      "name": "Grad Fahrenheit",
+      "aliases": ["fahrenheit", "temperatur", "grad"]
+    },
+    {
+      "value": "µ",
+      "name": "Mikrozeichen",
+      "aliases": ["mikro", "mikrometer", "my"]
+    },
+    {
+      "value": "Ω",
+      "name": "Ohm",
+      "aliases": ["ohm", "widerstand", "elektrik"]
+    },
+    {
+      "value": "%",
+      "name": "Prozentzeichen",
+      "aliases": ["prozent", "prozentzeichen"]
+    },
+    {
+      "value": "‰",
+      "name": "Promillezeichen",
+      "aliases": ["promille", "tausendstel"]
+    },
+    {
+      "value": "‱",
+      "name": "Basispunkt (Hundertstel Prozent)",
+      "aliases": ["basispunkt", "hundertstel prozent", "bps"]
+    },
+    {
+      "value": "Å",
+      "name": "Ångström",
+      "aliases": ["angstrom", "länge", "nanometer"]
+    },
+    {
+      "value": "ℓ",
+      "name": "Literzeichen",
+      "aliases": ["liter", "volumen", "einheit"]
+    },
+    {
+      "value": "₦",
+      "name": "Naira",
+      "aliases": ["naira", "nigeria", "währung"]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "characters": [
+    {
+      "value": "→",
+      "name": "Pfeil nach rechts",
+      "aliases": ["rechts", "pfeil", "arrow", "nach rechts"]
+    },
+    {
+      "value": "←",
+      "name": "Pfeil nach links",
+      "aliases": ["links", "pfeil", "arrow", "nach links"]
+    },
+    {
+      "value": "↑",
+      "name": "Pfeil nach oben",
+      "aliases": ["oben", "pfeil", "arrow", "nach oben"]
+    },
+    {
+      "value": "↓",
+      "name": "Pfeil nach unten",
+      "aliases": ["unten", "pfeil", "arrow", "nach unten"]
+    },
+    {
+      "value": "↗",
+      "name": "Pfeil nach schräg oben rechts",
+      "aliases": ["oben rechts", "pfeil", "arrow", "nach oben rechts"]
+    },
+    {
+      "value": "↘",
+      "name": "Pfeil nach schräg unten rechts",
+      "aliases": ["unten rechts", "pfeil", "arrow", "nach unten rechts"]
+    },
+    {
+      "value": "↙",
+      "name": "Pfeil nach schräg unten links",
+      "aliases": ["unten links", "pfeil", "arrow", "nach unten links"]
+    },
+    {
+      "value": "↖",
+      "name": "Pfeil nach schräg oben links",
+      "aliases": ["oben links", "pfeil", "arrow", "nach oben links"]
+    },
+    {
+      "value": "↔",
+      "name": "Pfeil nach links und rechts",
+      "aliases": ["links rechts", "pfeil", "arrow", "bidirektional"]
+    },
+    {
+      "value": "↕",
+      "name": "Pfeil nach oben und unten",
+      "aliases": ["oben unten", "pfeil", "arrow", "bidirektional"]
+    },
+    {
+      "value": "⇨",
+      "name": "fetter Pfeil nach rechts",
+      "aliases": ["rechts", "fett", "pfeil", "arrow"]
+    },
+    {
+      "value": "⇦",
+      "name": "fetter Pfeil nach links",
+      "aliases": ["links", "fett", "pfeil", "arrow"]
+    },
+    {
+      "value": "⇧",
+      "name": "fetter Pfeil nach oben",
+      "aliases": ["oben", "fett", "pfeil", "arrow"]
+    },
+    {
+      "value": "⇩",
+      "name": "fetter Pfeil nach unten",
+      "aliases": ["unten", "fett", "pfeil", "arrow"]
+    },
+    {
+      "value": "↱",
+      "name": "Pfeil von unten nach rechts oben",
+      "aliases": ["oben rechts", "start unten", "pfeil", "arrow"]
+    },
+    {
+      "value": "↲",
+      "name": "Pfeil von oben nach rechts unten",
+      "aliases": ["unten rechts", "start oben", "pfeil", "arrow"]
+    },
+    {
+      "value": "↻",
+      "name": "Kreisförmiger Pfeil im Uhrzeigersinn",
+      "aliases": ["kreis", "rotation", "wiederholen", "reload", "uhrzeigersinn", "pfeil"]
+    },
+    {
+      "value": "↺",
+      "name": "Kreisförmiger Pfeil gegen den Uhrzeigersinn",
+      "aliases": ["kreis", "rotation", "zurück", "gegen uhrzeigersinn", "pfeil"]
+    },
+    {
+      "value": "⇄",
+      "name": "Bidirektionaler Pfeil horizontal",
+      "aliases": ["bidirektional", "links", "rechts", "hin und her", "pfeil"]
+    },
+    {
+      "value": "⇵",
+      "name": "Bidirektionaler Pfeil vertikal",
+      "aliases": ["bidirektional", "oben", "unten", "rauf runter", "pfeil"]
+    },
+    {
+      "value": "⟶",
+      "name": "Mathematischer langer Pfeil nach rechts",
+      "aliases": ["rechtspfeil", "lang", "mathematik", "pfeil", "folge", "funktion"]
+    }
+  ]
+}

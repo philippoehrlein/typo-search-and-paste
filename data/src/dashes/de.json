@@ -1,0 +1,129 @@
+{
+  "characters": [
+    {
+      "value": "-",
+      "name": "Bindestrich",
+      "aliases": [
+        "bindestrich",
+        "minus",
+        "kurzer strich",
+        "hyphen",
+        "normal",
+        "strich"
+      ]
+    },
+    {
+      "value": "‐",
+      "name": "Trennstrich (Soft Hyphen sichtbar)",
+      "aliases": [
+        "trennstrich",
+        "soft hyphen",
+        "sichtbar",
+        "worttrennung",
+        "strich"
+      ]
+    },
+    {
+      "value": "‑",
+      "name": "Untrennbarer Bindestrich",
+      "aliases": [
+        "untrennbar",
+        "non-breaking hyphen",
+        "bindestrich",
+        "nicht umbrechbar",
+        "strich"
+      ]
+    },
+    {
+      "value": "–",
+      "name": "Halbgeviertstrich (Gedankenstrich)",
+      "aliases": [
+        "halbgeviert",
+        "gedankenstrich",
+        "en dash",
+        "mittelstrich",
+        "zahlenbereich",
+        "bis",
+        "einschub"
+      ]
+    },
+    {
+      "value": "—",
+      "name": "Geviertstrich",
+      "aliases": [
+        "geviert",
+        "em dash",
+        "langer strich",
+        "gedankenstrich",
+        "pause",
+        "einschub",
+        "englisch"
+      ]
+    },
+    {
+      "value": "‒",
+      "name": "Ziffernbindestrich",
+      "aliases": [
+        "figurenstrich",
+        "ziffernbindestrich",
+        "nummernstrich",
+        "zahlen",
+        "bindung"
+      ]
+    },
+    {
+      "value": "−",
+      "name": "Minuszeichen (Mathematik)",
+      "aliases": [
+        "minus",
+        "mathematik",
+        "subtraktion",
+        "negativ",
+        "rechensymbol"
+      ]
+    },
+    {
+      "value": "﹣",
+      "name": "Kleines Minuszeichen (Fullwidth)",
+      "aliases": [
+        "fullwidth",
+        "minus",
+        "asiatisch",
+        "gleichmäßig",
+        "typografisch"
+      ]
+    },
+    {
+      "value": "﹘",
+      "name": "Kleiner Geviertstrich (Fullwidth)",
+      "aliases": [
+        "fullwidth",
+        "geviert",
+        "em dash",
+        "typografisch",
+        "langer strich"
+      ]
+    },
+    {
+      "value": "﹣",
+      "name": "Halbbreites Minuszeichen",
+      "aliases": ["halbbreit", "minus", "typografie", "strich"]
+    },
+    {
+      "value": "⸺",
+      "name": "Zweifacher Geviertstrich",
+      "aliases": [
+        "doppel-geviert",
+        "dialog",
+        "langer gedankenstrich",
+        "englisch",
+        "strich"
+      ]
+    },
+    {
+      "value": "⸻",
+      "name": "Dreifacher Geviertstrich",
+      "aliases": ["dreifach", "triple dash", "betonung", "typografie", "strich"]
+    }
+  ]
+}

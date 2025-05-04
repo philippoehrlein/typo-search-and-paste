@@ -1,0 +1,44 @@
+{
+  "characters": [
+    {
+      "value": "©",
+      "name": "Copyright",
+      "aliases": ["copyright", "legal", "copyright symbol", "c", "protected"]
+    },
+    {
+      "value": "®",
+      "name": "Registered Trademark",
+      "aliases": ["registered", "trademark", "r", "protected", "legal"]
+    },
+    {
+      "value": "™",
+      "name": "Trademark",
+      "aliases": ["trademark", "brand", "tm", "protected", "legal"]
+    },
+    {
+      "value": "℗",
+      "name": "Phonogram Copyright",
+      "aliases": ["phonogram", "recording", "protected", "legal"]
+    },
+    {
+      "value": "§",
+      "name": "Paragraph",
+      "aliases": ["paragraph", "section", "protected", "legal"]
+    },
+    {
+      "value": "¶",
+      "name": "Pilcrow",
+      "aliases": ["pilcrow", "text structure", "protected", "legal"]
+    },
+    {
+      "value": "†",
+      "name": "Cross",
+      "aliases": ["cross", "protected", "legal"]
+    },
+    {
+      "value": "‡",
+      "name": "Double Cross",
+      "aliases": ["double cross", "protected", "legal"]
+    }
+  ]
+}

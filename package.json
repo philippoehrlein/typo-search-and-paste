@@ -1,0 +1,18 @@
+{
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "npx kirbyup serve src/index.js",
+    "build": "npx kirbyup src/index.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier \"src/**\" --write"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^4.11.0",
+    "autoprefixer": "^10.4.21",
+    "kirbyup": "^3.3.0",
+    "kirbyuse": "^0.11.3",
+    "prettier": "^3.5.3"
+  }
+}

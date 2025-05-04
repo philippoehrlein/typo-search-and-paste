@@ -1,0 +1,232 @@
+{
+  "characters": [
+    {
+      "value": "Α",
+      "name": "Alpha (uppercase)",
+      "aliases": ["greek", "alpha", "uppercase"]
+    },
+    {
+      "value": "Β",
+      "name": "Beta (uppercase)",
+      "aliases": ["greek", "beta", "uppercase"]
+    },
+    {
+      "value": "Γ",
+      "name": "Gamma (uppercase)",
+      "aliases": ["greek", "gamma", "uppercase"]
+    },
+    {
+      "value": "Δ",
+      "name": "Delta (uppercase)",
+      "aliases": ["greek", "delta", "uppercase", "difference"]
+    },
+    {
+      "value": "Ε",
+      "name": "Epsilon (uppercase)",
+      "aliases": ["greek", "epsilon", "uppercase"]
+    },
+    {
+      "value": "Ζ",
+      "name": "Zeta (uppercase)",
+      "aliases": ["greek", "zeta", "uppercase"]
+    },
+    {
+      "value": "Η",
+      "name": "Eta (uppercase)",
+      "aliases": ["greek", "eta", "uppercase"]
+    },
+    {
+      "value": "Θ",
+      "name": "Theta (uppercase)",
+      "aliases": ["greek", "theta", "uppercase", "angle"]
+    },
+    {
+      "value": "Ι",
+      "name": "Iota (uppercase)",
+      "aliases": ["greek", "iota", "uppercase"]
+    },
+    {
+      "value": "Κ",
+      "name": "Kappa (uppercase)",
+      "aliases": ["greek", "kappa", "uppercase"]
+    },
+    {
+      "value": "Λ",
+      "name": "Lambda (uppercase)",
+      "aliases": ["greek", "lambda", "uppercase"]
+    },
+    {
+      "value": "Μ",
+      "name": "My (uppercase)",
+      "aliases": ["greek", "my", "uppercase"]
+    },
+    {
+      "value": "Ν",
+      "name": "Ny (uppercase)",
+      "aliases": ["greek", "ny", "uppercase"]
+    },
+    {
+      "value": "Ξ",
+      "name": "Xi (uppercase)",
+      "aliases": ["greek", "xi", "uppercase"]
+    },
+    {
+      "value": "Ο",
+      "name": "Omikron (uppercase)",
+      "aliases": ["greek", "omikron", "uppercase"]
+    },
+    {
+      "value": "Π",
+      "name": "Pi (uppercase)",
+      "aliases": ["greek", "pi", "uppercase", "product"]
+    },
+    {
+      "value": "Ρ",
+      "name": "Rho (uppercase)",
+      "aliases": ["greek", "rho", "uppercase"]
+    },
+    {
+      "value": "Σ",
+      "name": "Sigma (uppercase)",
+      "aliases": ["greek", "sigma", "uppercase", "sum"]
+    },
+    {
+      "value": "Τ",
+      "name": "Tau (uppercase)",
+      "aliases": ["greek", "tau", "uppercase"]
+    },
+    {
+      "value": "Υ",
+      "name": "Ypsilon (uppercase)",
+      "aliases": ["greek", "ypsilon", "uppercase"]
+    },
+    {
+      "value": "Φ",
+      "name": "Phi (uppercase)",
+      "aliases": ["greek", "phi", "uppercase", "golden ratio"]
+    },
+    {
+      "value": "Χ",
+      "name": "Chi (uppercase)",
+      "aliases": ["greek", "chi", "uppercase"]
+    },
+    {
+      "value": "Ψ",
+      "name": "Psi (uppercase)",
+      "aliases": ["greek", "psi", "uppercase"]
+    },
+    {
+      "value": "Ω",
+      "name": "Omega (uppercase)",
+      "aliases": ["greek", "omega", "uppercase", "resistance", "end"]
+    },
+    {
+      "value": "α",
+      "name": "Alpha",
+      "aliases": ["greek", "alpha", "angle", "statistics"]
+    },
+    {
+      "value": "β",
+      "name": "Beta",
+      "aliases": ["greek", "beta", "distribution", "physics"]
+    },
+    {
+      "value": "γ",
+      "name": "Gamma",
+      "aliases": ["greek", "gamma", "radiation", "function"]
+    },
+    {
+      "value": "δ",
+      "name": "Delta",
+      "aliases": ["greek", "delta", "difference"]
+    },
+    {
+      "value": "ε",
+      "name": "Epsilon",
+      "aliases": ["greek", "epsilon", "error"]
+    },
+    {
+      "value": "ζ",
+      "name": "Zeta",
+      "aliases": ["greek", "zeta"]
+    },
+    { "value": "η", "name": "Eta", "aliases": ["greek", "eta"] },
+    {
+      "value": "θ",
+      "name": "Theta",
+      "aliases": ["greek", "theta", "angle", "small"]
+    },
+    {
+      "value": "ι",
+      "name": "Iota",
+      "aliases": ["greek", "iota", "small"]
+    },
+    {
+      "value": "κ",
+      "name": "Kappa",
+      "aliases": ["greek", "kappa", "small"]
+    },
+    {
+      "value": "λ",
+      "name": "Lambda",
+      "aliases": ["greek", "lambda", "wavelength", "small"]
+    },
+    {
+      "value": "μ",
+      "name": "My",
+      "aliases": ["greek", "my", "micro", "small", "µ"]
+    },
+    { "value": "ν", "name": "Ny", "aliases": ["greek", "ny", "small"] },
+    { "value": "ξ", "name": "Xi", "aliases": ["greek", "xi", "small"] },
+    {
+      "value": "ο",
+      "name": "Omikron",
+      "aliases": ["greek", "omikron", "small"]
+    },
+    {
+      "value": "π",
+      "name": "Pi",
+      "aliases": ["greek", "pi", "circle number", "small"]
+    },
+    {
+      "value": "ρ",
+      "name": "Rho",
+      "aliases": ["greek", "rho", "density", "small"]
+    },
+    {
+      "value": "σ",
+      "name": "Sigma",
+      "aliases": ["greek", "sigma", "scattering"]
+    },
+    {
+      "value": "τ",
+      "name": "Tau",
+      "aliases": ["greek", "tau", "time constant", "small"]
+    },
+    {
+      "value": "υ",
+      "name": "Ypsilon",
+      "aliases": ["greek", "ypsilon", "small"]
+    },
+    {
+      "value": "φ",
+      "name": "Phi",
+      "aliases": ["greek", "phi", "angle", "small"]
+    },
+    {
+      "value": "χ",
+      "name": "Chi",
+      "aliases": ["greek", "chi", "statistics", "small"]
+    },
+    {
+      "value": "ψ",
+      "name": "Psi",
+      "aliases": ["greek", "psi", "wave function", "small"]
+    },
+    {
+      "value": "ω",
+      "name": "Omega",
+      "aliases": ["greek", "omega", "frequency", "small"]
+    }
+  ]
+}

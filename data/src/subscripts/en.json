@@ -1,0 +1,105 @@
+{
+  "characters": [
+    {
+      "value": "₀",
+      "name": "Subscript Zero",
+      "aliases": ["subscript", "zero", "0"]
+    },
+    {
+      "value": "₁",
+      "name": "Subscript One",
+      "aliases": ["subscript", "one", "1"]
+    },
+    {
+      "value": "₂",
+      "name": "Subscript Two",
+      "aliases": ["subscript", "two", "2"]
+    },
+    {
+      "value": "₊",
+      "name": "Subscript Plus",
+      "aliases": ["subscript", "plus", "+"]
+    },
+    {
+      "value": "₋",
+      "name": "Subscript Minus",
+      "aliases": ["subscript", "minus", "-"]
+    },
+    {
+      "value": "₌",
+      "name": "Subscript Equal",
+      "aliases": ["subscript", "equal", "="]
+    },
+    {
+      "value": "₍",
+      "name": "Subscript Open Parenthesis",
+      "aliases": ["subscript", "open parenthesis", "("]
+    },
+    {
+      "value": "₎",
+      "name": "Subscript Close Parenthesis",
+      "aliases": ["subscript", "close parenthesis", ")"]
+    },
+
+    {
+      "value": "ₐ",
+      "name": "Subscript a",
+      "aliases": ["subscript", "a"]
+    },
+    {
+      "value": "ₑ",
+      "name": "Subscript e",
+      "aliases": ["subscript", "e"]
+    },
+    {
+      "value": "ₕ",
+      "name": "Subscript h",
+      "aliases": ["subscript", "h"]
+    },
+    {
+      "value": "ₖ",
+      "name": "Subscript k",
+      "aliases": ["subscript", "k"]
+    },
+    {
+      "value": "ₗ",
+      "name": "Subscript l",
+      "aliases": ["subscript", "l"]
+    },
+    {
+      "value": "ₘ",
+      "name": "Subscript m",
+      "aliases": ["subscript", "m"]
+    },
+    {
+      "value": "ₙ",
+      "name": "Subscript n",
+      "aliases": ["subscript", "n"]
+    },
+    {
+      "value": "ₒ",
+      "name": "Subscript o",
+      "aliases": ["subscript", "o"]
+    },
+    {
+      "value": "ₚ",
+      "name": "Subscript p",
+      "aliases": ["subscript", "p"]
+    },
+    {
+      "value": "ₛ",
+      "name": "Subscript s",
+      "aliases": ["subscript", "s"]
+    },
+    {
+      "value": "ₜ",
+      "name": "Subscript t",
+      "aliases": ["subscript", "t"]
+    },
+    {
+      "value": "ₓ",
+      "name": "Subscript x",
+      "aliases": ["subscript", "x"]
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "characters": [
+    {
+      "value": "+",
+      "name": "Plus",
+      "aliases": ["plus", "addieren", "addition", "rechnen", "positiv"]
+    },
+    {
+      "value": "−",
+      "name": "Minus",
+      "aliases": ["minus", "subtraktion", "negativ", "abziehen"]
+    },
+    {
+      "value": "±",
+      "name": "Plusminus",
+      "aliases": ["plusminus", "toleranz", "ungefähr"]
+    },
+    {
+      "value": "×",
+      "name": "Malzeichen",
+      "aliases": ["mal", "multiplikation", "kreuz", "vervielfachen"]
+    },
+    {
+      "value": "÷",
+      "name": "Geteiltzeichen",
+      "aliases": ["geteilt", "division", "durch"]
+    },
+    {
+      "value": "∕",
+      "name": "Bruchstrich",
+      "aliases": ["bruch", "division", "schrägstrich"]
+    },
+    {
+      "value": "=",
+      "name": "Gleich",
+      "aliases": ["gleich", "ist gleich"]
+    },
+    {
+      "value": "≠",
+      "name": "Ungleich",
+      "aliases": ["ungleich", "nicht gleich"]
+    },
+    {
+      "value": "<",
+      "name": "Kleiner als",
+      "aliases": ["kleiner", "weniger"]
+    },
+    { "value": ">", "name": "Größer als", "aliases": ["größer", "mehr"] },
+    {
+      "value": "≤",
+      "name": "Kleiner gleich",
+      "aliases": ["kleiner gleich", "weniger gleich"]
+    },
+    {
+      "value": "≥",
+      "name": "Größer gleich",
+      "aliases": ["größer gleich", "mehr gleich"]
+    },
+    {
+      "value": "≈",
+      "name": "Ungefähr gleich",
+      "aliases": ["ungefähr", "etwa", "approximativ"]
+    },
+    {
+      "value": "≅",
+      "name": "Kongruent",
+      "aliases": ["kongruent", "entspricht", "geometrie"]
+    },
+    {
+      "value": "≡",
+      "name": "Identisch",
+      "aliases": ["identisch", "drei gleich", "logik"]
+    },
+    {
+      "value": "∑",
+      "name": "Summenzeichen",
+      "aliases": ["summe", "sigma", "summation"]
+    },
+    {
+      "value": "∏",
+      "name": "Produktzeichen",
+      "aliases": ["produkt", "pi", "multiplikation"]
+    },
+    {
+      "value": "∫",
+      "name": "Integralzeichen",
+      "aliases": ["integral", "flächensumme", "fläche"]
+    },
+    {
+      "value": "√",
+      "name": "Wurzelzeichen",
+      "aliases": ["wurzel", "quadratwurzel"]
+    },
+    {
+      "value": "∛",
+      "name": "Kubikwurzel",
+      "aliases": ["kubikwurzel", "dritte wurzel"]
+    },
+    {
+      "value": "∞",
+      "name": "Unendlichzeichen",
+      "aliases": ["unendlich", "grenzwert"]
+    },
+    {
+      "value": "∝",
+      "name": "Proportional",
+      "aliases": ["proportional", "verhältnis"]
+    },
+    {
+      "value": "∈",
+      "name": "Element von",
+      "aliases": ["element", "in", "mengenlehre"]
+    },
+    {
+      "value": "∉",
+      "name": "Kein Element von",
+      "aliases": ["kein element", "nicht in"]
+    },
+    {
+      "value": "⊂",
+      "name": "Teilmenge",
+      "aliases": ["teilmenge", "subset"]
+    },
+    {
+      "value": "⊆",
+      "name": "Teilmenge oder gleich",
+      "aliases": ["teilmenge gleich"]
+    },
+    {
+      "value": "⊃",
+      "name": "Obermenge",
+      "aliases": ["obermenge", "superset"]
+    },
+    {
+      "value": "⊇",
+      "name": "Obermenge oder gleich",
+      "aliases": ["obermenge gleich"]
+    },
+    {
+      "value": "∅",
+      "name": "Leere Menge",
+      "aliases": ["leer", "leere menge", "nullmenge"]
+    },
+    {
+      "value": "∧",
+      "name": "Und (logisch)",
+      "aliases": ["und", "logik", "and"]
+    },
+    {
+      "value": "∨",
+      "name": "Oder (logisch)",
+      "aliases": ["oder", "logik", "or"]
+    },
+    {
+      "value": "¬",
+      "name": "Nicht (logisch)",
+      "aliases": ["nicht", "logik", "negation"]
+    },
+    {
+      "value": "⇒",
+      "name": "Implikation",
+      "aliases": ["implikation", "folgt"]
+    },
+    {
+      "value": "⇔",
+      "name": "Äquivalenz",
+      "aliases": ["äquivalent", "genau dann wenn"]
+    },
+    {
+      "value": "½",
+      "name": "ein Halb",
+      "aliases": ["ein halb", "ein halbe", "ein halben"]
+    },
+    {
+      "value": "¼",
+      "name": "ein Viertel",
+      "aliases": ["ein viertel", "ein viertelte", "ein viertelten"]
+    },
+    {
+      "value": "¾",
+      "name": "drei Viertel",
+      "aliases": ["drei viertel", "drei viertelte", "drei viertelten"]
+    },
+    {
+      "value": "⅓",
+      "name": "ein Drittel",
+      "aliases": ["ein drittel", "ein drittelte", "ein drittelten"]
+    },
+    {
+      "value": "⅔",
+      "name": "zwei Drittel",
+      "aliases": ["zwei drittel", "zwei drittelte", "zwei drittelten"]
+    },
+    {
+      "value": "⅕",
+      "name": "ein Fünftel",
+      "aliases": ["ein fünftel", "ein fünftelte", "ein fünftelten"]
+    },
+    {
+      "value": "⅖",
+      "name": "zwei Fünftel",
+      "aliases": ["zwei fünftel", "zwei fünftelte", "zwei fünftelten"]
+    },
+    {
+      "value": "⅗",
+      "name": "drei Fünftel",
+      "aliases": ["drei fünftel", "drei fünftelte", "drei fünftelten"]
+    },
+    {
+      "value": "⅘",
+      "name": "vier Fünftel",
+      "aliases": ["vier fünftel", "vier fünftelte", "vier fünftelten"]
+    },
+    {
+      "value": "⅙",
+      "name": "ein Sechstel",
+      "aliases": ["ein sechstel", "ein sechstelte", "ein sechstelten"]
+    },
+    {
+      "value": "⅚",
+      "name": "fünf Sechstel",
+      "aliases": ["fünf sechstel", "fünf sechstelte", "fünf sechstelten"]
+    },
+    {
+      "value": "⅛",
+      "name": "ein Achtel",
+      "aliases": ["ein achtel", "ein achtelte", "ein achtelten"]
+    },
+    {
+      "value": "⅜",
+      "name": "drei Achtel",
+      "aliases": ["drei achtel", "drei achtelte", "drei achtelten"]
+    },
+    {
+      "value": "⅝",
+      "name": "fünf Achtel",
+      "aliases": ["fünf achtel", "fünf achtelte", "fünf achtelten"]
+    },
+    {
+      "value": "⅞",
+      "name": "sieben Achtel",
+      "aliases": ["sieben achtel", "sieben achtelte", "sieben achtelten"]
+    }
+  ]
+}
