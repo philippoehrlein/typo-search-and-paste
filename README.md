@@ -1,7 +1,7 @@
 # Typo, Search & Paste
 
 ![License](https://img.shields.io/badge/license-MIT-green)
-![Version](https://img.shields.io/badge/version-1.0.0-blue)
+![Version](https://img.shields.io/badge/version-1.0.1-blue)
 
 A Kirby plugin that provides a searchable interface for special characters, built on top of [Typo & Paste](https://github.com/philippoehrlein/typo-and-paste).
 
@@ -17,16 +17,21 @@ A Kirby plugin that provides a searchable interface for special characters, buil
 
 ## Installation
 
-### With Typo & Paste (v2.4.0+)
+### Installation via Composer
 
-If you have [Typo & Paste](https://github.com/philippoehrlein/typo-and-paste) v2.4.0 or higher installed, no additional configuration is needed. The search functionality will be automatically integrated.
+```bash
+composer require philippoehrlein/typo-search-and-paste
+```
 
-### Standalone Installation
+### Manual Installation
 
 1. Download and extract the plugin
 2. Copy the `typo-search-and-paste` folder into `/site/plugins/`
 
 ## Configuration
+### With Typo & Paste (v2.4.0+)
+
+If you have [Typo & Paste](https://github.com/philippoehrlein/typo-and-paste) v2.4.0 or higher installed, no additional configuration is needed. The search functionality will be automatically integrated.
 
 ### Panel Toolbar Button
 
