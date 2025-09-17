@@ -2,13 +2,16 @@
   <div v-if="queryLength > 2" class="tsp-results-container">
     <div v-if="results.length > 0" class="tsp-results">
       <k-button
-        v-for="result in results"
+        v-for="(result, index) in results"
         :key="result.value"
+        :ref="(el) => setButtonRef(el, index)"
         class="tsp-results__result"
+        :class="{ 'tsp-results__result--active': activeIndex === index }"
         tabindex="0"
         role="menuitem"
         :title="result.name"
         @click="copyToClipboard(result.value)"
+        @keydown.native="handleKeydown"
       >
         <span class="tsp-results__result-value">{{ result.value }}</span>
         <span class="tsp-results__result-name">{{ result.name }}</span>
@@ -21,9 +24,9 @@
 </template>
 
 <script setup>
-import { usePanel } from "kirbyuse";
+import { nextTick, ref, usePanel, watch } from "kirbyuse";
 
-defineProps({
+const props = defineProps({
   results: {
     type: Array,
     required: true,
@@ -33,9 +36,70 @@ defineProps({
     required: true,
   },
 });
-const emit = defineEmits(["close"]);
+const emit = defineEmits(["close", "focusinput"]);
 
 const panel = usePanel();
+const activeIndex = ref(-1);
+const buttonRefs = ref([]);
+
+const setButtonRef = (el, index) => {
+  if (el) {
+    buttonRefs.value[index] = el;
+  }
+};
+
+// Reset active index when results change
+watch(() => props.results, () => {
+  activeIndex.value = -1;
+});
+
+const focusButton = (index) => {
+  nextTick(() => {
+    if (buttonRefs.value[index]) {
+      buttonRefs.value[index].$el?.focus();
+    }
+  });
+};
+
+const handleKeydown = (event) => {
+  const { key } = event;
+  
+  if (key === 'ArrowDown') {
+    event.preventDefault();
+    if (activeIndex.value < props.results.length - 1) {
+      activeIndex.value++;
+      focusButton(activeIndex.value);
+    }
+  } else if (key === 'ArrowUp') {
+    event.preventDefault();
+    if (activeIndex.value > 0) {
+      activeIndex.value--;
+      focusButton(activeIndex.value);
+    } else {
+      // Focus back to input
+      emit('focusinput');
+    }
+  } else if (key === 'Escape') {
+    event.preventDefault();
+    emit('close');
+  }
+};
+
+// Expose methods for parent component
+defineExpose({
+  focusFirst: () => {
+    if (props.results.length > 0) {
+      activeIndex.value = 0;
+      focusButton(0);
+    }
+  },
+  focusLast: () => {
+    if (props.results.length > 0) {
+      activeIndex.value = props.results.length - 1;
+      focusButton(props.results.length - 1);
+    }
+  }
+});
 
 function copyToClipboard(character) {
   navigator.clipboard.writeText(character);
@@ -81,7 +145,8 @@ function copyToClipboard(character) {
   width: 100%;
 }
 
-.tsp-results__result:hover {
+.tsp-results__result:hover,
+.tsp-results__result--active {
   background-color: var(--dropdown-color-hr);
 }
 

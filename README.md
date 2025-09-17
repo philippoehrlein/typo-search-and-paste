@@ -1,7 +1,7 @@
 # Typo, Search & Paste
 
 ![License](https://img.shields.io/badge/license-MIT-green)
-![Version](https://img.shields.io/badge/version-1.0.2-blue)
+![Version](https://img.shields.io/badge/version-1.1.0-blue)
 
 A Kirby plugin that provides a searchable interface for special characters, built on top of [Typo & Paste](https://github.com/philippoehrlein/typo-and-paste).
 
@@ -63,6 +63,10 @@ return [
   ]
 ];
 ```
+
+## Troubleshooting
+
+If you encounter FTS5-related errors on shared hosting environments, see [FTS5_TROUBLESHOOTING.md](FTS5_TROUBLESHOOTING.md) for solutions and configuration options.
 
 ## Contributing to the Character Database
 

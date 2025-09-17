@@ -18,21 +18,24 @@
       }}
     </h2>
     <TSPSearch
+      ref="searchComponent"
       @result="handleResults"
       @length="handleLength"
       @close="handleClose"
+      @focusresults="handleFocusResults"
     />
     <TSPResults
+      ref="resultsComponent"
       :results="results"
       :query-length="queryLength"
       @close="handleClose"
+      @focusinput="handleFocusInput"
     />
   </k-dialog>
 </template>
 
 <script setup>
-import { usePanel } from "kirbyuse";
-import { defineEmits, ref } from "vue";
+import { ref, usePanel } from "kirbyuse";
 import TSPResults from "./TSPResults.vue";
 import TSPSearch from "./TSPSearch.vue";
 
@@ -42,6 +45,8 @@ const panel = usePanel();
 
 const results = ref([]);
 const queryLength = ref(0);
+const searchComponent = ref(null);
+const resultsComponent = ref(null);
 
 const handleResults = (newResults) => {
   results.value = newResults;
@@ -53,6 +58,18 @@ const handleLength = (newLength) => {
 
 const handleClose = () => {
   emit("close");
+};
+
+const handleFocusResults = () => {
+  if (resultsComponent.value) {
+    resultsComponent.value.focusFirst();
+  }
+};
+
+const handleFocusInput = () => {
+  if (searchComponent.value) {
+    searchComponent.value.focus();
+  }
 };
 </script>
 

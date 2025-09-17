@@ -1,6 +1,7 @@
 <template>
   <div class="tsp-search">
     <k-search-input
+      ref="searchInput"
       :placeholder="
         panel.t(
           'philippoehrlein.typo-search-and-paste.searchPlaceholder',
@@ -21,13 +22,15 @@
 </template>
 
 <script setup>
-import { usePanel } from "kirbyuse";
-import { defineEmits, ref } from "vue";
-const emit = defineEmits(["result", "length", "close"]);
+import { onMounted, onUnmounted, ref, usePanel } from "kirbyuse";
+import { defineEmits } from "vue";
+
+const emit = defineEmits(["result", "length", "close", "focusresults"]);
 
 const panel = usePanel();
 const value = ref("");
 const results = ref([]);
+const searchInput = ref(null);
 let searchTimeout = null;
 
 const search = async (query) => {
@@ -65,6 +68,41 @@ const onInput = (newValue) => {
     search(newValue);
   }, 300);
 };
+
+const handleKeydown = (event) => {
+  const { key } = event;
+  if (key === 'ArrowDown' && results.value.length > 0) {
+    event.preventDefault();
+    emit('focusresults');
+  } else if (key === 'Escape') {
+    event.preventDefault();
+    emit('close');
+  }
+};
+
+onMounted(() => {
+  // Add keydown listener to the actual input element
+  if (searchInput.value && searchInput.value.$el) {
+    // $el is already the input element, no need for querySelector
+    searchInput.value.$el.addEventListener('keydown', handleKeydown);
+  }
+});
+
+onUnmounted(() => {
+  // Clean up event listener
+  if (searchInput.value && searchInput.value.$el) {
+    searchInput.value.$el.removeEventListener('keydown', handleKeydown);
+  }
+});
+
+// Expose methods for parent component
+defineExpose({
+  focus: () => {
+    if (searchInput.value) {
+      searchInput.value.focus();
+    }
+  }
+});
 </script>
 
 <style>
