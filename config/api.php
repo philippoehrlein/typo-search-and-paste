@@ -21,11 +21,11 @@ return [
             return $w . '*';
         }, $words));
         
-        // database path
-        $dbPath = $kirby->root('plugins') . '/typo-search-and-paste/data/tsp.' . $lang . '.db';
+        $pluginRoot = dirname(__DIR__);
+        $dbPath = $pluginRoot . '/data/tsp.' . $lang . '.db';
 
         if(!file_exists($dbPath)) {
-          $dbPath = $kirby->root('plugins') . '/typo-search-and-paste/data/tsp.en.db';
+          $dbPath = $pluginRoot . '/data/tsp.en.db';
         }
         
         // check if database exists
