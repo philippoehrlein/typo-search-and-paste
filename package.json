@@ -1,7 +1,7 @@
 {
   "name": "philippoehrlein/typo-search-and-paste",
   "type": "module",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "private": true,
   "description": "A Kirby plugin for searching and inserting special characters with multi-language support.",
   "homepage": "https://github.com/philippoehrlein/typo-search-and-paste",
