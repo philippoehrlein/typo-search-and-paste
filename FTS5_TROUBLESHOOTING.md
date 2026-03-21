@@ -22,7 +22,7 @@ If you want to manually enable FTS5, you can add the following configuration to 
 
 ```php
 return [
-  'typo-search-and-paste' => [
+  'philippoehrlein.typo-search-paste' => [
     // Enables dynamic loading of FTS5 extension
     'enableFts5ExtensionLoading' => true,
     

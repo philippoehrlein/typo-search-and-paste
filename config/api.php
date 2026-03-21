@@ -51,10 +51,11 @@ return [
         $fts5Available = false;
         
         // check if FTS5 extension is explicitly activated
-        $enableFts5Extension = $kirby->option('typo-search-and-paste.enableFts5ExtensionLoading', false);
+        $enableFts5Extension = option('philippoehrlein.typo-search-paste.enableFts5ExtensionLoading', false);
+
         
         if ($enableFts5Extension) {
-          $extensionPaths = $kirby->option('typo-search-and-paste.fts5ExtensionLoadingPaths', ['fts5.so']);
+          $extensionPaths = option('philippoehrlein.typo-search-paste.fts5ExtensionLoadingPaths', ['fts5.so']);
           $extensionLoaded = false;
           
           foreach ($extensionPaths as $path) {

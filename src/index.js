@@ -2,7 +2,7 @@ import TSPButton from "./components/TSPButton.vue";
 import TSPanel from "./components/TSPPanel.vue";
 import { icons } from "./config/icons";
 
-window.panel.plugin("philippoehrlein/typo-search-and-paste", {
+window.panel.plugin("philippoehrlein/typo-search-paste", {
   icons,
   components: {
     "k-typo-search-and-paste-dialog": TSPanel,

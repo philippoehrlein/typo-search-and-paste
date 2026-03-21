@@ -1,7 +1,7 @@
 <?php
 
 return [
-  'typo-search-and-paste' => [
+  'typo-search-paste' => [
     // Activate the dynamic loading of the FTS5 extension
     // Only activate if FTS5 is not natively available
     // and the fts5.so file is available in the system
