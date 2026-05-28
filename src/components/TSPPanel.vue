@@ -35,7 +35,8 @@
 </template>
 
 <script setup>
-import { ref, usePanel } from "kirbyuse";
+import { usePanel } from "kirbyuse";
+import { ref } from "vue";
 import TSPResults from "./TSPResults.vue";
 import TSPSearch from "./TSPSearch.vue";
 

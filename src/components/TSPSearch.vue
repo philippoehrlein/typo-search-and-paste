@@ -22,8 +22,8 @@
 </template>
 
 <script setup>
-import { onMounted, onUnmounted, ref, usePanel } from "kirbyuse";
-import { defineEmits } from "vue";
+import { usePanel } from "kirbyuse";
+import { onMounted, onUnmounted, ref } from "vue";
 
 const emit = defineEmits(["result", "length", "close", "focusresults"]);
 

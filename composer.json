@@ -3,7 +3,7 @@
   "description": "A Kirby plugin for searching and inserting special characters with multi-language support.",
   "type": "kirby-plugin",
   "license": "MIT",
-  "version": "1.2.1",
+  "version": "2.0.0-beta.1",
   "homepage": "https://github.com/philippoehrlein/typo-search-and-paste",
   "authors": [
     {
@@ -16,7 +16,7 @@
     "getkirby/composer-installer": "^1.2"
   },
   "require-dev": {
-    "getkirby/cms": "^4.9.2 || ^5.4.2"
+    "getkirby/cms": "^6.0.0-alpha.2"
   },
   "autoload": {
     "psr-4": {

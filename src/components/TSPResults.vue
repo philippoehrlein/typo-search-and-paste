@@ -24,7 +24,8 @@
 </template>
 
 <script setup>
-import { nextTick, ref, usePanel, watch } from "kirbyuse";
+import { usePanel } from "kirbyuse";
+import { nextTick, ref, watch } from "vue";
 
 const props = defineProps({
   results: {
