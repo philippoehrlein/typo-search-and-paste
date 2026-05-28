@@ -13,7 +13,7 @@
       @input="onInput"
     />
     <k-button
-      :icon="isLoading ? 'loader' : 'cancel'"
+      icon="cancel"
       :title="$t('close')"
       class="k-search-bar-close"
       @click="$emit('close')"
@@ -36,6 +36,8 @@ let searchTimeout = null;
 const search = async (query) => {
   if (query.length < 3) {
     results.value = [];
+    emit("length", 0);
+    emit("result", results.value);
     return;
   }
   const q = query.trim().replace(/\s+/g, " AND ");
@@ -47,6 +49,7 @@ const search = async (query) => {
     emit("length", query.length);
   } catch (error) {
     console.error(error);
+    throw error;
   }
 };
 

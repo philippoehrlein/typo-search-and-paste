@@ -20,6 +20,19 @@ return [
             }
             return $w . '*';
         }, $words));
+
+        $searchTerms = array_values(array_filter(explode(' ', $query), function ($term) {
+          $term = trim($term, '*');
+          if ($term === '') {
+            return false;
+          }
+          return !in_array(strtoupper($term), ['AND', 'OR', 'NOT'], true);
+        }));
+
+        $cleanQuery = trim(implode(' ', array_map(function ($term) {
+          return trim($term, '*');
+        }, $searchTerms)));
+        $startMatch = "$cleanQuery%";
         
         $pluginRoot = dirname(__DIR__);
         $dbPath = $pluginRoot . '/data/tsp.' . $lang . '.db';
@@ -41,6 +54,13 @@ return [
           return [
             'status' => 'error',
             'message' => 'No search query provided'
+          ];
+        }
+
+        if (empty($cleanQuery)) {
+          return [
+            'status' => 'success',
+            'results' => []
           ];
         }
         
@@ -91,11 +111,22 @@ return [
               FROM characters c
               JOIN search ON c.id = search.character_id
               WHERE search MATCH :query
-              ORDER BY rank
+              ORDER BY
+                CASE
+                  WHEN c.name = :exactName THEN 1
+                  WHEN c.name LIKE :startMatch THEN 2
+                  WHEN c.name LIKE :containsMatch THEN 3
+                  ELSE 4
+                END,
+                rank,
+                c.name
               LIMIT 20
             ');
             
             $stmt->bindValue(':query', $query, SQLITE3_TEXT);
+            $stmt->bindValue(':exactName', $cleanQuery, SQLITE3_TEXT);
+            $stmt->bindValue(':startMatch', "$cleanQuery%", SQLITE3_TEXT);
+            $stmt->bindValue(':containsMatch', "%$cleanQuery%", SQLITE3_TEXT);
             $result = $stmt->execute();
             
             // collect results
@@ -112,7 +143,14 @@ return [
         
         if (!$fts5Available) {
           // fallback: LIKE-based search
-          $searchTerms = explode(' ', $query);
+          if (empty($searchTerms)) {
+            $db->close();
+            return [
+              'status' => 'success',
+              'results' => []
+            ];
+          }
+
           $whereConditions = [];
           $params = [];
           
@@ -130,9 +168,10 @@ return [
             WHERE $whereClause
             ORDER BY 
               CASE 
-                WHEN c.name LIKE :exactMatch THEN 1
+                WHEN c.name = :exactName THEN 1
                 WHEN c.name LIKE :startMatch THEN 2
-                ELSE 3
+                WHEN c.name LIKE :containsMatch THEN 3
+                ELSE 4
               END,
               c.name
             LIMIT 20
@@ -144,9 +183,8 @@ return [
           }
           
           // additional parameters for ranking
-          $exactMatch = "%$query%";
-          $startMatch = "$query%";
-          $stmt->bindValue(':exactMatch', $exactMatch, SQLITE3_TEXT);
+          $stmt->bindValue(':exactName', $cleanQuery, SQLITE3_TEXT);
+          $stmt->bindValue(':containsMatch', "%$cleanQuery%", SQLITE3_TEXT);
           $stmt->bindValue(':startMatch', $startMatch, SQLITE3_TEXT);
           
           $result = $stmt->execute();

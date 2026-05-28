@@ -57,7 +57,7 @@ const handleLength = (newLength) => {
 };
 
 const handleClose = () => {
-  emit("close");
+  emit("cancel");
 };
 
 const handleFocusResults = () => {
