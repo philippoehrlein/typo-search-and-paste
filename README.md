@@ -1,7 +1,7 @@
 # Typo, Search & Paste
 
 ![License](https://img.shields.io/badge/license-MIT-green)
-![Version](https://img.shields.io/badge/version-2.0.0beta-blue)
+![Version](https://img.shields.io/badge/version-2.0.0-blue)
 
 A Kirby plugin that provides a searchable interface for special characters, built on top of [Typo & Paste](https://github.com/philippoehrlein/typo-and-paste).
 
@@ -12,16 +12,22 @@ A Kirby plugin that provides a searchable interface for special characters, buil
 - Searchable database of special characters
 - Multi-language support
 - SQLite-based search engine
-- Seamless integration with Typo & Paste (v2.4.0+)
-- Standalone functionality for Kirby 5
+- Optional integration with Typo & Paste 3.x
+- Standalone functionality in the Kirby 6 Panel
+
+## Compatibility
+
+Typo, Search & Paste 2.x requires Kirby 6 and PHP 8.3 or newer. For Kirby 4 and 5, use [Typo, Search & Paste 1.x](https://github.com/philippoehrlein/typo-search-and-paste/tree/support/kirby4-5).
 
 ## Installation
 
 ### Installation via Composer
 
 ```bash
-composer require philippoehrlein/typo-search-and-paste
+composer require philippoehrlein/typo-search-and-paste:^2.0
 ```
+
+For Kirby 4 and 5, run `composer require philippoehrlein/typo-search-and-paste:^1.0`.
 
 ### Manual Installation
 
@@ -29,13 +35,13 @@ composer require philippoehrlein/typo-search-and-paste
 2. Copy the `typo-search-and-paste` folder into `/site/plugins/`
 
 ## Configuration
-### With Typo & Paste (v2.4.0+)
+### With Typo & Paste 3.x
 
-If you have [Typo & Paste](https://github.com/philippoehrlein/typo-and-paste) v2.4.0 or higher installed, no additional configuration is needed. The search functionality will be automatically integrated.
+If you have [Typo & Paste 3.x](https://github.com/philippoehrlein/typo-and-paste) installed, the search functionality is integrated automatically.
 
 ### Panel Toolbar Button
 
-In Kirby 5, you can add the Typo Search & Paste button to your panel toolbar in two ways:
+You can add the Typo, Search & Paste button to your Panel toolbar in two ways:
 
 #### 1. In your blueprint:
 

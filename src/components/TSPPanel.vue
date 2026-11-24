@@ -87,7 +87,7 @@ TSPSearch {
   padding: 0 !important;
 }
 
-.k-typo-search-and-paste-dialog:deep(.k-dialog-body) {
+.k-typo-search-and-paste-dialog .k-dialog-body {
   max-height: 100%;
 }
 

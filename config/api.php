@@ -96,8 +96,9 @@ return [
         
         try {
           $testStmt = $db->prepare('SELECT fts5_version()');
-          $testStmt->execute();
-          $fts5Available = true;
+          if ($testStmt !== false && $testStmt->execute() !== false) {
+            $fts5Available = true;
+          }
         } catch (Exception $e) {
           // FTS5 not available, use fallback
         }
@@ -122,12 +123,18 @@ return [
                 c.name
               LIMIT 20
             ');
+            if ($stmt === false) {
+              throw new RuntimeException('FTS statement preparation failed');
+            }
             
             $stmt->bindValue(':query', $query, SQLITE3_TEXT);
             $stmt->bindValue(':exactName', $cleanQuery, SQLITE3_TEXT);
             $stmt->bindValue(':startMatch', "$cleanQuery%", SQLITE3_TEXT);
             $stmt->bindValue(':containsMatch', "%$cleanQuery%", SQLITE3_TEXT);
             $result = $stmt->execute();
+            if ($result === false) {
+              throw new RuntimeException('FTS query execution failed');
+            }
             
             // collect results
             while ($row = $result->fetchArray(SQLITE3_ASSOC)) {
@@ -176,6 +183,13 @@ return [
               c.name
             LIMIT 20
           ");
+          if ($stmt === false) {
+            $db->close();
+            return [
+              'status' => 'error',
+              'message' => 'Search query preparation failed'
+            ];
+          }
           
           // bind parameters
           foreach ($params as $key => $value) {
@@ -188,6 +202,13 @@ return [
           $stmt->bindValue(':startMatch', $startMatch, SQLITE3_TEXT);
           
           $result = $stmt->execute();
+          if ($result === false) {
+            $db->close();
+            return [
+              'status' => 'error',
+              'message' => 'Search query execution failed'
+            ];
+          }
           
           // collect results
           while ($row = $result->fetchArray(SQLITE3_ASSOC)) {
